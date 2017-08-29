@@ -12,6 +12,7 @@ export default class MyDocument extends Document {
           <Head>
             <meta charSet="utf-8" />
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css"/>
+            <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css" />
             <link rel="stylesheet" href="/static/css/base.css"/>
             <style>{`
               html, #__next {
