@@ -40,7 +40,7 @@ export class Card extends React.Component {
     return (
       <div className="card">
         <div>
-          <span className="title">Teach me about</span> <span className="subject">{this.props.prompt}</span>
+          <span className="title">Start here</span> <span className="subject">{this.props.prompt}</span>
         </div>
 
         <div className="editor">
