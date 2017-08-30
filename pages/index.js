@@ -1,30 +1,45 @@
-import { Provider } from 'react-redux'
-import reducer from '../reducers/index';
-import { initStore } from '../reducers/index';
-import Card from '../components/Card';
+import { Provider } from "react-redux";
+import reducer from "../reducers/index";
+import { initStore } from "../reducers/index";
+import Nav from "../components/Nav";
+import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
+
+// import injectTapEventPlugin from "react-tap-event-plugin";
+// if (typeof window !== "undefined") {
+//   injectTapEventPlugin();
+// }
+
+// const muiDefaultTheme = {
+//   userAgent: false
+// };
 
 export default class Index extends React.Component {
-  static getInitialProps ({ req }) {
+  static async getInitialProps({ req }) {
     const isServer = !!req;
     const store = initStore(reducer, null, isServer);
-    return { initialState: store.getState(), isServer };
+    const userAgent = req ? req.headers["user-agent"] : navigator.userAgent;
+    let pageProps = {};
+
+    return { initialState: store.getState(), isServer, userAgent };
   }
 
-  constructor (props) {
-    super(props)
-    this.store = initStore(reducer, props.initialState, props.isServer)
+  constructor(props) {
+    super(props);
+    this.store = initStore(reducer, props.initialState, props.isServer);
   }
 
-  render () {
+  render() {
     return (
       <div id="main">
         <div id="firebaseui-auth-container" />
         <Provider store={this.store}>
-          <Card />
+          <MuiThemeProvider muiTheme={{ userAgent: this.props.userAgent }}>
+            <Nav />
+          </MuiThemeProvider>
         </Provider>
         <style>{`
           #main {
-            display: flex;
+            {/* display: flex; */}
             align-items: center;
             justify-content: center;
           }
