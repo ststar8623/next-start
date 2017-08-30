@@ -4,8 +4,11 @@
     "es6": true,
     "node": true
   },
+  "extends": "airbnb",
   "plugins": [
-    "react"
+    "react",
+    "jsx-ally",
+    "import"
   ],
   "ecmaFeatures": {
     "experimentalObjectRestSpread": true,
