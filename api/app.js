@@ -11,7 +11,8 @@ const handle = app.getRequestHandler();
 
 const port = process.env.PORT || 3000;
 
-app.prepare()
+app
+  .prepare()
   .then(() => {
     const server = express();
 
@@ -21,7 +22,9 @@ app.prepare()
 
     // pages endpoint
     server.get('/', (req, res) => app.render(req, res, '/', req.query));
-    server.get('/signin', (req, res) => app.render(req, res, '/signin', req.query));
+    server.get('/signin', (req, res) =>
+      app.render(req, res, '/signin', req.query)
+    );
 
     // data endpoint
     server.use('/auth', routes.auth);
@@ -30,5 +33,3 @@ app.prepare()
     server.listen(port, () => console.log(`listening on port ${port}`));
   })
   .catch(err => console.log(err));
-
-
