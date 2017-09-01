@@ -1,3 +1,4 @@
+<<<<<<< b8fe74562a761868741e49a201368fdac3850061
 const bcrypt = require('bcryptjs');
 const crypto = require('crypto');
 
@@ -73,53 +74,19 @@ module.exports = function(db, DataTypes) {
       isEmail: true
     },
     tokens: DataTypes.JSON
+=======
+'use strict';
+module.exports = function(sequelize, DataTypes) {
+  var User = sequelize.define('User', {
+    name: DataTypes.STRING,
+    email: DataTypes.STRING
+>>>>>>> migrate db
   }, {
-    tableName: 'users',
-    instanceMethods: instanceMethods,
     classMethods: {
       associate: function(models) {
-        //User.hasMany(models.Role);
-      },
-      encryptPassword: function(password, cb) {
-        if (!password) {
-          cb('', null);
-          return;
-        }
-
-        bcrypt.genSalt(10, function(err, salt) {
-          if (err) { cb(null, err); return; }
-          bcrypt.hash(password, salt, null, function(hErr, hash) {
-            if (hErr) { cb(null, hErr); return; }
-            cb(hash, null);
-          });
-        });
-      },
-
-      findUser: function(email, password, cb) {
-        User.findOne({
-          where: { email: email }
-        })
-        .then(function(user) {
-          if(user == null || user.password == null || user.password.length === 0) {
-            cb('User / Password combination is not correct', null);
-            return;
-          }
-          bcrypt.compare(password, user.password, function(err, res) {
-            if(res)
-              cb(null, user);
-            else
-              cb(err, null);
-          });
-        })
-        .catch(function(serr) { cb(serr, null); });
+        // associations can be defined here
       }
-    },
-
-    hooks: {
-      beforeUpdate: beforeSaveHook,
-      beforeCreate: beforeSaveHook
-    },
+    }
   });
-
   return User;
 };
