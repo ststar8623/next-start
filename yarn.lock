@@ -1150,10 +1150,15 @@ babel-runtime@6.23.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> added LRUCache and re-configured server
 =======
 >>>>>>> added sidebar and removed LRUCache
+=======
+=======
+>>>>>>> added LRUCache and re-configured server
+>>>>>>> added LRUCache and re-configured server
 =======
 >>>>>>> updated package.json and eslintrc
 =======
@@ -1164,6 +1169,8 @@ babel-runtime@6.23.0:
 >>>>>>> added LRUCache and re-configured server
 babel-runtime@^6.18.0, babel-runtime@^6.20.0, babel-runtime@^6.22.0, babel-runtime@^6.25.0, babel-runtime@^6.26.0:
 =======
+=======
+>>>>>>> added LRUCache and re-configured server
 babel-runtime@^6.0.0, babel-runtime@^6.11.6, babel-runtime@^6.18.0, babel-runtime@^6.20.0:
   version "6.20.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.20.0.tgz#87300bdcf4cd770f09bf0048c64204e17806d16f"
@@ -1201,7 +1208,12 @@ babel-runtime@^6.18.0, babel-runtime@^6.20.0, babel-runtime@^6.22.0, babel-runti
 >>>>>>> added LRUCache and re-configured server
 =======
 >>>>>>> added sidebar and removed LRUCache
+<<<<<<< HEAD
 >>>>>>> added sidebar and removed LRUCache
+=======
+=======
+>>>>>>> added LRUCache and re-configured server
+>>>>>>> added LRUCache and re-configured server
 babel-runtime@^6.18.0, babel-runtime@^6.20.0, babel-runtime@^6.22.0, babel-runtime@^6.23.0, babel-runtime@^6.25.0, babel-runtime@^6.26.0:
 >>>>>>> added LRUCache and re-configured server
 <<<<<<< HEAD
@@ -2994,6 +3006,7 @@ fast-levenshtein@~2.0.4:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 fb-watchman@^1.8.0:
   version "1.9.2"
   resolved "https://registry.yarnpkg.com/fb-watchman/-/fb-watchman-1.9.2.tgz#a24cf47827f82d38fb59a69ad70b76e3b6ae7383"
@@ -3012,6 +3025,8 @@ fb-watchman@^2.0.0:
 =======
 <<<<<<< HEAD
 >>>>>>> rebased with PR#6
+=======
+>>>>>>> added LRUCache and re-configured server
 =======
 >>>>>>> added LRUCache and re-configured server
 =======
@@ -3058,6 +3073,25 @@ fbjs@^0.8.1, fbjs@^0.8.4, fbjs@^0.8.6, fbjs@^0.8.9:
 fbjs@^0.8.1, fbjs@^0.8.4, fbjs@^0.8.6, fbjs@^0.8.9:
 >>>>>>> rebased with PR#6
 =======
+<<<<<<< HEAD
+=======
+fbjs@^0.8.1, fbjs@^0.8.4, fbjs@^0.8.6, fbjs@^0.8.9:
+=======
+fbjs@^0.8.1, fbjs@^0.8.4:
+  version "0.8.8"
+  resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.8.tgz#02f1b6e0ea0d46c24e0b51a2d24df069563a5ad6"
+  dependencies:
+    core-js "^1.0.0"
+    isomorphic-fetch "^2.1.1"
+    loose-envify "^1.0.0"
+    object-assign "^4.1.0"
+    promise "^7.1.1"
+    setimmediate "^1.0.5"
+    ua-parser-js "^0.7.9"
+
+fbjs@^0.8.6, fbjs@^0.8.9:
+>>>>>>> added LRUCache and re-configured server
+>>>>>>> added LRUCache and re-configured server
 >>>>>>> added LRUCache and re-configured server
 >>>>>>> added LRUCache and re-configured server
   version "0.8.14"
@@ -5399,7 +5433,13 @@ mime-db@~1.29.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 mime-types@^2.1.12, mime-types@~2.1.15, mime-types@~2.1.7:
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> added LRUCache and re-configured server
+>>>>>>> added LRUCache and re-configured server
 =======
 =======
 >>>>>>> rebased with PR#6
@@ -5435,6 +5475,27 @@ mime-types@^2.1.12, mime-types@~2.1.15, mime-types@~2.1.16, mime-types@~2.1.7:
   resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.16.tgz#2b858a52e5ecd516db897ac2be87487830698e23"
 >>>>>>> rebased with PR#6
 =======
+<<<<<<< HEAD
+=======
+mime-types@^2.1.12, mime-types@~2.1.15, mime-types@~2.1.16, mime-types@~2.1.7:
+  version "2.1.16"
+  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.16.tgz#2b858a52e5ecd516db897ac2be87487830698e23"
+=======
+mime-db@~1.29.0:
+  version "1.29.0"
+  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.29.0.tgz#48d26d235589651704ac5916ca06001914266878"
+
+mime-types@^2.1.12, mime-types@~2.1.15, mime-types@~2.1.7:
+  version "2.1.16"
+  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.16.tgz#2b858a52e5ecd516db897ac2be87487830698e23"
+  dependencies:
+    mime-db "~1.29.0"
+
+mime-types@~2.1.11:
+  version "2.1.13"
+  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.13.tgz#e07aaa9c6c6b9a7ca3012c69003ad25a39e92a88"
+>>>>>>> added LRUCache and re-configured server
+>>>>>>> added LRUCache and re-configured server
 >>>>>>> added LRUCache and re-configured server
   dependencies:
     mime-db "~1.29.0"
@@ -5920,14 +5981,22 @@ normalize-package-data@^2.3.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> rebased with PR#6
 =======
+>>>>>>> added LRUCache and re-configured server
+=======
+=======
+=======
+>>>>>>> added LRUCache and re-configured server
+>>>>>>> added LRUCache and re-configured server
 >>>>>>> added LRUCache and re-configured server
 normalize-path@^2.0.0, normalize-path@^2.0.1:
 =======
 normalize-path@^2.0.0:
 >>>>>>> added LRUCache and re-configured server
+<<<<<<< HEAD
 =======
 normalize-path@^2.0.0, normalize-path@^2.0.1:
 >>>>>>> rebased with PR#6
@@ -5936,9 +6005,12 @@ normalize-path@^2.0.0, normalize-path@^2.0.1:
 =======
 >>>>>>> added LRUCache and re-configured server
 =======
+<<<<<<< HEAD
 normalize-path@^2.0.0, normalize-path@^2.0.1:
 =======
 normalize-path@^2.0.0:
+>>>>>>> added LRUCache and re-configured server
+=======
 >>>>>>> added LRUCache and re-configured server
 >>>>>>> added LRUCache and re-configured server
 <<<<<<< HEAD
@@ -6824,8 +6896,11 @@ prop-types@15.5.10, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.8:
 >>>>>>> updated package.json and eslintrc
 =======
 =======
+<<<<<<< HEAD
 prop-types@15.5.10, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.8:
 =======
+=======
+>>>>>>> added LRUCache and re-configured server
 >>>>>>> added LRUCache and re-configured server
 >>>>>>> added LRUCache and re-configured server
 prop-types-extra@^1.0.1:
@@ -6867,6 +6942,8 @@ prop-types@15.5.10, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6,
 >>>>>>> added LRUCache and re-configured server
 =======
 =======
+=======
+>>>>>>> added LRUCache and re-configured server
 prop-types@15.5.10, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8:
 >>>>>>> rebased with PR#6
 <<<<<<< HEAD
@@ -6998,12 +7075,15 @@ rc@^1.1.7:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> rebased with PR#6
+=======
+>>>>>>> added LRUCache and re-configured server
 =======
 =======
 =======
@@ -7029,10 +7109,17 @@ react-bootstrap@^0.31.2:
 >>>>>>> added LRUCache and re-configured server
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> added LRUCache and re-configured server
 =======
 <<<<<<< HEAD
 >>>>>>> updated package.json and eslintrc
+=======
+=======
+=======
+
+>>>>>>> added LRUCache and re-configured server
+>>>>>>> added LRUCache and re-configured server
 react-bootstrap@^0.31.2:
   version "0.31.2"
   resolved "https://registry.yarnpkg.com/react-bootstrap/-/react-bootstrap-0.31.2.tgz#f59184676ecedfc4c572d29ffdd6f9126ea8fe6a"
@@ -7127,6 +7214,11 @@ react-motion@^0.5.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> added LRUCache and re-configured server
 react-portal@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/react-portal/-/react-portal-3.1.0.tgz#865c44fb72a1da106c649206936559ce891ee899"
@@ -7141,6 +7233,7 @@ react-overlays@^0.7.0:
     react-prop-types "^0.4.0"
     warning "^3.0.0"
 
+<<<<<<< HEAD
 =======
 >>>>>>> updated package.json and eslintrc
 =======
@@ -7152,6 +7245,9 @@ react-overlays@^0.7.0:
 =======
 >>>>>>> rebased with PR#6
 =======
+=======
+>>>>>>> added LRUCache and re-configured server
+>>>>>>> added LRUCache and re-configured server
 >>>>>>> added LRUCache and re-configured server
 react-portal@^3.1.0:
   version "3.1.0"
@@ -7212,6 +7308,7 @@ react-prop-types@^0.4.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 react-prop-types@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/react-prop-types/-/react-prop-types-0.4.0.tgz#f99b0bfb4006929c9af2051e7c1414a5c75b93d0"
@@ -7222,6 +7319,8 @@ react-prop-types@^0.4.0:
 =======
 >>>>>>> updated package.json and eslintrc
 =======
+>>>>>>> added LRUCache and re-configured server
+=======
 >>>>>>> rebased with PR#6
 =======
 =======
@@ -7229,6 +7328,15 @@ react-prop-types@^0.4.0:
 >>>>>>> updated package.json and eslintrc
 =======
 >>>>>>> rebased with PR#6
+=======
+react-prop-types@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/react-prop-types/-/react-prop-types-0.4.0.tgz#f99b0bfb4006929c9af2051e7c1414a5c75b93d0"
+>>>>>>> added LRUCache and re-configured server
+  dependencies:
+    prop-types "^15.5.8"
+
+>>>>>>> added LRUCache and re-configured server
 react-proxy@^3.0.0-alpha.0:
   version "3.0.0-alpha.1"
   resolved "https://registry.yarnpkg.com/react-proxy/-/react-proxy-3.0.0-alpha.1.tgz#4400426bcfa80caa6724c7755695315209fa4b07"
@@ -7824,6 +7932,7 @@ right-align@^0.1.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 rimraf@2, rimraf@^2.2.8, rimraf@^2.5.1, rimraf@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.1.tgz#c2338ec643df7a1b7fe5c54fa86f57428a55f33d"
@@ -7852,6 +7961,10 @@ rimraf@2, rimraf@^2.2.8, rimraf@^2.5.1, rimraf@^2.6.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> added LRUCache and re-configured server
+>>>>>>> added LRUCache and re-configured server
+=======
 >>>>>>> added LRUCache and re-configured server
 >>>>>>> added LRUCache and re-configured server
 rimraf@2, rimraf@^2.2.8, rimraf@^2.5.1, rimraf@^2.6.1:
@@ -7883,6 +7996,23 @@ rimraf@2, rimraf@^2.2.8, rimraf@^2.5.1, rimraf@^2.6.1:
 >>>>>>> rebased with PR#6
 =======
 =======
+<<<<<<< HEAD
+=======
+rimraf@2, rimraf@^2.2.8, rimraf@^2.5.1, rimraf@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.1.tgz#c2338ec643df7a1b7fe5c54fa86f57428a55f33d"
+=======
+rimraf@2, rimraf@^2.5.1, rimraf@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.1.tgz#c2338ec643df7a1b7fe5c54fa86f57428a55f33d"
+  dependencies:
+    glob "^7.0.5"
+
+rimraf@^2.2.8:
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.5.4.tgz#96800093cbf1a0c86bd95b4625467535c29dfa04"
+>>>>>>> added LRUCache and re-configured server
+>>>>>>> added LRUCache and re-configured server
 >>>>>>> added LRUCache and re-configured server
 >>>>>>> added LRUCache and re-configured server
   dependencies:
@@ -7917,11 +8047,18 @@ rx-lite-aggregates@^4.0.8:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> added LRUCache and re-configured server
 =======
 >>>>>>> rebased with PR#6
 =======
+>>>>>>> added LRUCache and re-configured server
+=======
+=======
+=======
+>>>>>>> added LRUCache and re-configured server
+>>>>>>> added LRUCache and re-configured server
 >>>>>>> added LRUCache and re-configured server
 
 rx-lite@*, rx-lite@^4.0.8:
@@ -7931,11 +8068,14 @@ rx-lite@*, rx-lite@^4.0.8:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
 =======
+=======
+>>>>>>> added LRUCache and re-configured server
 =======
 >>>>>>> rebased with PR#6
 <<<<<<< HEAD
@@ -7966,12 +8106,15 @@ rx-lite@*, rx-lite@^4.0.8:
 =======
 >>>>>>> rebased with PR#6
 =======
+<<<<<<< HEAD
 =======
 
 rx-lite@*, rx-lite@^4.0.8:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/rx-lite/-/rx-lite-4.0.8.tgz#0b1e11af8bc44836f04a6407e92da42467b79444"
 
+=======
+>>>>>>> added LRUCache and re-configured server
 >>>>>>> added LRUCache and re-configured server
 >>>>>>> added LRUCache and re-configured server
 safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
@@ -8013,6 +8156,7 @@ semantic-ui-react@^0.72.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "semver@2 || 3 || 4 || 5", semver@^5.0.1, semver@^5.1.0, semver@^5.3.0:
   version "5.4.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
@@ -8028,6 +8172,10 @@ semantic-ui-react@^0.72.0:
 >>>>>>> rebased with PR#6
 =======
 =======
+=======
+>>>>>>> added LRUCache and re-configured server
+>>>>>>> added LRUCache and re-configured server
+=======
 >>>>>>> rebased with PR#6
 =======
 =======
@@ -8056,6 +8204,17 @@ semantic-ui-react@^0.72.0:
 >>>>>>> rebased with PR#6
 =======
 =======
+<<<<<<< HEAD
+=======
+"semver@2 || 3 || 4 || 5", semver@^5.0.1, semver@^5.1.0, semver@^5.3.0:
+  version "5.4.1"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
+=======
+"semver@2 || 3 || 4 || 5", semver@5.3.0, semver@^5.0.1:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
+>>>>>>> added LRUCache and re-configured server
+>>>>>>> added LRUCache and re-configured server
 >>>>>>> added LRUCache and re-configured server
 >>>>>>> added LRUCache and re-configured server
 
