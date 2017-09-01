@@ -1142,12 +1142,15 @@ babel-runtime@6.23.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> added LRUCache and re-configured server
 =======
 >>>>>>> added sidebar and removed LRUCache
 =======
 >>>>>>> updated package.json and eslintrc
+=======
+>>>>>>> rebased with PR#6
 babel-runtime@^6.18.0, babel-runtime@^6.20.0, babel-runtime@^6.22.0, babel-runtime@^6.25.0, babel-runtime@^6.26.0:
 =======
 babel-runtime@^6.0.0, babel-runtime@^6.11.6, babel-runtime@^6.18.0, babel-runtime@^6.20.0:
@@ -1203,7 +1206,13 @@ babel-runtime@^6.0.0, babel-runtime@^6.18.0, babel-runtime@^6.20.0:
 babel-runtime@^6.22.0, babel-runtime@^6.23.0, babel-runtime@^6.25.0, babel-runtime@^6.26.0:
 >>>>>>> updated package.json and eslintrc
 >>>>>>> updated package.json and eslintrc
+<<<<<<< HEAD
 >>>>>>> updated package.json and eslintrc
+=======
+=======
+babel-runtime@^6.18.0, babel-runtime@^6.20.0, babel-runtime@^6.22.0, babel-runtime@^6.23.0, babel-runtime@^6.25.0, babel-runtime@^6.26.0:
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
   dependencies:
@@ -1383,15 +1392,19 @@ bluebird@^3.0.5, bluebird@^3.4.1, bluebird@^3.4.6, bluebird@^3.5.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.0.tgz#791420d7f551eea2897453a8a77653f96606d67c"
 
-bluebird@^3.4.1, bluebird@^3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.0.tgz#791420d7f551eea2897453a8a77653f96606d67c"
-
 <<<<<<< HEAD
 bluebird@^3.4.1, bluebird@^3.5.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.0.tgz#791420d7f551eea2897453a8a77653f96606d67c"
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+bluebird@^3.4.1, bluebird@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.0.tgz#791420d7f551eea2897453a8a77653f96606d67c"
+
+=======
+>>>>>>> rebased with PR#6
 =======
 >>>>>>> rebased with PR#6
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
@@ -1628,6 +1641,7 @@ chalk@^2.0.0, chalk@^2.1.0:
     supports-color "^4.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 cheerio@^0.22.0:
   version "0.22.0"
   resolved "https://registry.yarnpkg.com/cheerio/-/cheerio-0.22.0.tgz#a9baa860a3f9b595a6b81b1a86873121ed3a269e"
@@ -1652,11 +1666,16 @@ cheerio@^0.22.0:
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> rebased with PR#6
+=======
 change-emitter@^0.1.2:
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/change-emitter/-/change-emitter-0.1.6.tgz#e8b2fe3d7f1ab7d69a32199aff91ea6931409515"
 
 >>>>>>> rebased with PR#6
+<<<<<<< HEAD
+>>>>>>> rebased with PR#6
+=======
 >>>>>>> rebased with PR#6
 chokidar@^1.7.0:
   version "1.7.0"
@@ -1957,6 +1976,7 @@ crypto@^1.0.1:
   resolved "https://registry.yarnpkg.com/crypto/-/crypto-1.0.1.tgz#2af1b7cad8175d24c8a1b0778255794a21803037"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 css-select@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/css-select/-/css-select-1.2.0.tgz#2b3a110539c5355f1cd8d314623e870b121ec858"
@@ -1969,6 +1989,8 @@ css-select@~1.2.0:
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> rebased with PR#6
+=======
 css-in-js-utils@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/css-in-js-utils/-/css-in-js-utils-1.0.3.tgz#9ac7e02f763cf85d94017666565ed68a5b5f3215"
@@ -1976,6 +1998,9 @@ css-in-js-utils@^1.0.3:
     hyphenate-style-name "^1.0.2"
 
 >>>>>>> rebased with PR#6
+<<<<<<< HEAD
+>>>>>>> rebased with PR#6
+=======
 >>>>>>> rebased with PR#6
 css-tree@1.0.0-alpha17:
   version "1.0.0-alpha17"
@@ -2170,6 +2195,7 @@ doctrine@^2.0.0:
     isarray "^1.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 dom-serializer@0, dom-serializer@~0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/dom-serializer/-/dom-serializer-0.1.0.tgz#073c697546ce0780ce23be4a28e293e40bc30c82"
@@ -2180,11 +2206,16 @@ dom-serializer@0, dom-serializer@~0.1.0:
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> rebased with PR#6
+=======
 dom-helpers@^3.2.0:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-3.2.1.tgz#3203e07fed217bd1f424b019735582fc37b2825a"
 
 >>>>>>> rebased with PR#6
+<<<<<<< HEAD
+>>>>>>> rebased with PR#6
+=======
 >>>>>>> rebased with PR#6
 dom-walk@^0.1.0:
   version "0.1.1"
@@ -2355,6 +2386,7 @@ error-stack-parser@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 es-abstract@^1.6.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.8.1.tgz#fd85a3bdfa67786ce7be7e1584678e119cd70c04"
@@ -2399,11 +2431,19 @@ es5-ext@^0.10.12, es5-ext@^0.10.14, es5-ext@^0.10.30, es5-ext@^0.10.9, es5-ext@~
 es5-ext@^0.10.12, es5-ext@^0.10.14, es5-ext@^0.10.30, es5-ext@^0.10.9, es5-ext@~0.10.14, es5-ext@~0.10.2:
 >>>>>>> added sidebar and removed LRUCache
 =======
+=======
+>>>>>>> rebased with PR#6
 es5-ext@^0.10.12, es5-ext@^0.10.14, es5-ext@^0.10.30, es5-ext@^0.10.9, es5-ext@~0.10.14, es5-ext@~0.10.2:
 =======
 es5-ext@^0.10.12, es5-ext@^0.10.14, es5-ext@^0.10.30, es5-ext@^0.10.9, es5-ext@~0.10.14:
 >>>>>>> updated package.json and eslintrc
+<<<<<<< HEAD
 >>>>>>> updated package.json and eslintrc
+=======
+=======
+es5-ext@^0.10.12, es5-ext@^0.10.14, es5-ext@^0.10.30, es5-ext@^0.10.9, es5-ext@~0.10.14, es5-ext@~0.10.2:
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
   version "0.10.30"
   resolved "https://registry.yarnpkg.com/es5-ext/-/es5-ext-0.10.30.tgz#7141a16836697dbabfaaaeee41495ce29f52c939"
   dependencies:
@@ -2699,18 +2739,6 @@ external-editor@^2.0.4:
     jschardet "^1.4.2"
     tmp "^0.0.31"
 
-extend@~3.0.0:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
-
-external-editor@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/external-editor/-/external-editor-2.0.4.tgz#1ed9199da9cbfe2ef2f7a31b2fde8b0d12368972"
-  dependencies:
-    iconv-lite "^0.4.17"
-    jschardet "^1.4.2"
-    tmp "^0.0.31"
-
 <<<<<<< HEAD
 extend@~3.0.0:
   version "3.0.1"
@@ -2724,6 +2752,22 @@ external-editor@^2.0.4:
     jschardet "^1.4.2"
     tmp "^0.0.31"
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+extend@~3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
+
+external-editor@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/external-editor/-/external-editor-2.0.4.tgz#1ed9199da9cbfe2ef2f7a31b2fde8b0d12368972"
+  dependencies:
+    iconv-lite "^0.4.17"
+    jschardet "^1.4.2"
+    tmp "^0.0.31"
+
+=======
+>>>>>>> rebased with PR#6
 =======
 >>>>>>> rebased with PR#6
 extglob@^0.3.1:
@@ -2754,6 +2798,7 @@ fast-levenshtein@~2.0.4:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 fb-watchman@^1.8.0:
   version "1.9.2"
   resolved "https://registry.yarnpkg.com/fb-watchman/-/fb-watchman-1.9.2.tgz#a24cf47827f82d38fb59a69ad70b76e3b6ae7383"
@@ -2774,6 +2819,8 @@ fb-watchman@^2.0.0:
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 fbjs@^0.8.9:
 =======
 <<<<<<< HEAD
@@ -2795,11 +2842,17 @@ fbjs@^0.8.6, fbjs@^0.8.9:
 >>>>>>> added LRUCache and re-configured server
 >>>>>>> added LRUCache and re-configured server
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 fbjs@^0.8.1, fbjs@^0.8.4, fbjs@^0.8.6, fbjs@^0.8.9:
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+fbjs@^0.8.1, fbjs@^0.8.4, fbjs@^0.8.6, fbjs@^0.8.9:
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
   version "0.8.14"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.14.tgz#d1dbe2be254c35a91e09f31f9cd50a40b2a0ed1c"
   dependencies:
@@ -3136,18 +3189,27 @@ glob2base@^0.0.12:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 glob@7.1.1:
 =======
 glob@7.1.1, glob@^7.0.3, glob@^7.0.5:
 >>>>>>> added LRUCache and re-configured server
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 glob@7.1.1:
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+glob@7.1.1:
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.1.tgz#805211df04faaf1c63a3600306cdf5ade50b2ec8"
   dependencies:
@@ -3180,6 +3242,7 @@ glob@^6.0.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@^7.1.2:
 =======
 glob@^7.1.1, glob@^7.1.2:
@@ -3188,11 +3251,19 @@ glob@^7.1.1, glob@^7.1.2:
 glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@^7.1.2:
 >>>>>>> rebased with PR#6
 =======
+=======
+>>>>>>> rebased with PR#6
 glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@^7.1.2:
 =======
 glob@^7.1.1, glob@^7.1.2:
 >>>>>>> added LRUCache and re-configured server
+<<<<<<< HEAD
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@^7.1.2:
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.2.tgz#c19c9df9a028702d678612384a6552404c636d15"
   dependencies:
@@ -3237,8 +3308,11 @@ global@^4.3.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 globals@^9.0.0, globals@^9.17.0, globals@^9.18.0:
 =======
 globals@^9.0.0:
@@ -3248,11 +3322,17 @@ globals@^9.0.0:
 globals@^9.17.0, globals@^9.18.0:
 >>>>>>> added LRUCache and re-configured server
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 globals@^9.0.0, globals@^9.17.0, globals@^9.18.0:
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+globals@^9.0.0, globals@^9.17.0, globals@^9.18.0:
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
   version "9.18.0"
   resolved "https://registry.yarnpkg.com/globals/-/globals-9.18.0.tgz#aa3896b3e69b487f17e31ed2143d69a8e30c2d8a"
 
@@ -3541,6 +3621,7 @@ https-browserify@0.0.1:
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-0.0.1.tgz#3f91365cabe60b77ed0ebba24b454e3e09d95a82"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 iconv-lite@0.4.13:
   version "0.4.13"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.13.tgz#1f88aba4ab0b1508e8312acc39345f36e992e2f2"
@@ -3548,11 +3629,16 @@ iconv-lite@0.4.13:
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> rebased with PR#6
+=======
 hyphenate-style-name@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/hyphenate-style-name/-/hyphenate-style-name-1.0.2.tgz#31160a36930adaf1fc04c6074f7eb41465d4ec4b"
 
 >>>>>>> rebased with PR#6
+<<<<<<< HEAD
+>>>>>>> rebased with PR#6
+=======
 >>>>>>> rebased with PR#6
 iconv-lite@0.4.15:
   version "0.4.15"
@@ -3561,6 +3647,7 @@ iconv-lite@0.4.15:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 iconv-lite@^0.4.17, iconv-lite@~0.4.13:
   version "0.4.18"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.18.tgz#23d8656b16aae6742ac29732ea8f0336a4789cf2"
@@ -3579,6 +3666,8 @@ iconv-lite@^0.4.17, iconv-lite@~0.4.13:
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.18.tgz#23d8656b16aae6742ac29732ea8f0336a4789cf2"
 >>>>>>> rebased with PR#6
 =======
+=======
+>>>>>>> rebased with PR#6
 iconv-lite@^0.4.17, iconv-lite@~0.4.13:
   version "0.4.18"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.18.tgz#23d8656b16aae6742ac29732ea8f0336a4789cf2"
@@ -3591,7 +3680,15 @@ iconv-lite@~0.4.13:
   version "0.4.13"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.13.tgz#1f88aba4ab0b1508e8312acc39345f36e992e2f2"
 >>>>>>> added LRUCache and re-configured server
+<<<<<<< HEAD
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+iconv-lite@^0.4.17, iconv-lite@~0.4.13:
+  version "0.4.18"
+  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.18.tgz#23d8656b16aae6742ac29732ea8f0336a4789cf2"
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 
 ieee754@^1.1.4:
   version "1.1.8"
@@ -3715,6 +3812,7 @@ is-bluebird@^1.0.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 is-buffer@^1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.5.tgz#1f3b26ef613b214b88cbca23cc6c01d87961eecc"
@@ -3729,6 +3827,8 @@ is-buffer@^1.1.5:
   resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.5.tgz#1f3b26ef613b214b88cbca23cc6c01d87961eecc"
 >>>>>>> rebased with PR#6
 =======
+=======
+>>>>>>> rebased with PR#6
 is-buffer@^1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.5.tgz#1f3b26ef613b214b88cbca23cc6c01d87961eecc"
@@ -3737,7 +3837,15 @@ is-buffer@^1.0.2:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.4.tgz#cfc86ccd5dc5a52fa80489111c6920c457e2d98b"
 >>>>>>> added LRUCache and re-configured server
+<<<<<<< HEAD
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+is-buffer@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.5.tgz#1f3b26ef613b214b88cbca23cc6c01d87961eecc"
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 
 is-builtin-module@^1.0.0:
   version "1.0.0"
@@ -3963,13 +4071,19 @@ js-string-escape@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/js-string-escape/-/js-string-escape-1.0.1.tgz#e2625badbc0d67c7533e9edc1068c587ae4137ef"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 js-tokens@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-2.0.0.tgz#79903f5563ee778cc1162e6dcf1a0027c97f9cb5"
 >>>>>>> added LRUCache and re-configured server
+<<<<<<< HEAD
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 
 istanbul-lib-hook@^1.0.7:
   version "1.0.7"
@@ -4356,6 +4470,9 @@ jsprim@^1.2.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> rebased with PR#6
 =======
 =======
 >>>>>>> updated package.json and eslintrc
@@ -4366,12 +4483,17 @@ junk@^1.0.1:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/junk/-/junk-1.0.3.tgz#87be63488649cbdca6f53ab39bec9ccd2347f592"
 >>>>>>> added LRUCache and re-configured server
+<<<<<<< HEAD
 >>>>>>> added LRUCache and re-configured server
 =======
 =======
 =======
 >>>>>>> updated package.json and eslintrc
 >>>>>>> updated package.json and eslintrc
+=======
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 
 junk@^1.0.1:
   version "1.0.3"
@@ -4380,10 +4502,13 @@ junk@^1.0.1:
 =======
 >>>>>>> rebased with PR#6
 
+<<<<<<< HEAD
 junk@^1.0.1:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/junk/-/junk-1.0.3.tgz#87be63488649cbdca6f53ab39bec9ccd2347f592"
 
+=======
+>>>>>>> rebased with PR#6
 <<<<<<< HEAD
 keycode@^2.1.2:
 =======
@@ -4401,10 +4526,15 @@ kind-of@^3.0.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 kind-of@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-4.0.0.tgz#20813df3d712928b207378691a45066fae72dd57"
@@ -4413,6 +4543,7 @@ kind-of@^4.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> added LRUCache and re-configured server
 =======
@@ -4421,6 +4552,12 @@ kind-of@^4.0.0:
 =======
 >>>>>>> added LRUCache and re-configured server
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+>>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 lazy-cache@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/lazy-cache/-/lazy-cache-1.0.4.tgz#a1d78fc3a50474cb80845d3b3b6e1da49a446e8e"
@@ -4537,6 +4674,7 @@ lodash._root@^3.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 lodash.assignin@^4.0.9:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/lodash.assignin/-/lodash.assignin-4.2.0.tgz#ba8df5fb841eb0a3e8044232b0e263a8dc6a28a2"
@@ -4552,6 +4690,8 @@ lodash.bind@^4.1.4:
 =======
 >>>>>>> added LRUCache and re-configured server
 =======
+>>>>>>> rebased with PR#6
+=======
 lodash.assignwith@^4.0.7:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/lodash.assignwith/-/lodash.assignwith-4.2.0.tgz#127a97f02adc41751a954d24b0de17e100e038eb"
@@ -4559,6 +4699,7 @@ lodash.assignwith@^4.0.7:
 >>>>>>> added LRUCache and re-configured server
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> added LRUCache and re-configured server
 =======
 =======
@@ -4566,6 +4707,10 @@ lodash.assignwith@^4.0.7:
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 lodash.chunk@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/lodash.chunk/-/lodash.chunk-4.2.0.tgz#66e5ce1f76ed27b4303d8c6512e8d1216e8106bc"
@@ -4631,10 +4776,13 @@ lodash.merge@^4.4.0, lodash.merge@^4.6.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 =======
 =======
 >>>>>>> added LRUCache and re-configured server
@@ -4660,6 +4808,8 @@ lodash.reject@^4.4.0:
 =======
 >>>>>>> added LRUCache and re-configured server
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 lodash.restparam@^3.0.0:
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/lodash.restparam/-/lodash.restparam-3.6.1.tgz#936a4e309ef330a7645ed4145986c85ae5b20805"
@@ -4906,8 +5056,11 @@ mime-db@~1.29.0:
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.29.0.tgz#48d26d235589651704ac5916ca06001914266878"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 mime-types@^2.1.12, mime-types@~2.1.15, mime-types@~2.1.7:
 =======
+=======
+>>>>>>> rebased with PR#6
 <<<<<<< HEAD
 mime-types@^2.1.12, mime-types@~2.1.15, mime-types@~2.1.16, mime-types@~2.1.7:
 >>>>>>> added LRUCache and re-configured server
@@ -4928,6 +5081,11 @@ mime-types@~2.1.11:
   version "2.1.13"
   resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.13.tgz#e07aaa9c6c6b9a7ca3012c69003ad25a39e92a88"
 >>>>>>> added LRUCache and re-configured server
+=======
+mime-types@^2.1.12, mime-types@~2.1.15, mime-types@~2.1.16, mime-types@~2.1.7:
+  version "2.1.16"
+  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.16.tgz#2b858a52e5ecd516db897ac2be87487830698e23"
+>>>>>>> rebased with PR#6
   dependencies:
     mime-db "~1.29.0"
 
@@ -4982,10 +5140,15 @@ minimalistic-crypto-utils@^1.0.0, minimalistic-crypto-utils@^1.0.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 
 "minimatch@2 || 3", minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.3, minimatch@^3.0.4:
   version "3.0.4"
@@ -5001,8 +5164,11 @@ minimatch@^2.0.1:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 =======
 
 "minimatch@2 || 3", minimatch@^3.0.0, minimatch@^3.0.4:
@@ -5025,10 +5191,15 @@ minimatch@^3.0.2:
 
 >>>>>>> added LRUCache and re-configured server
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 minimatch@~0.2.11:
   version "0.2.14"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-0.2.14.tgz#c74e780574f63c6f9a090e90efbe6ef53a6a756a"
@@ -5068,10 +5239,15 @@ moment-timezone@^0.5.4:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
     moment ">= 2.9.0"
 
 "moment@>= 2.9.0", moment@^2.11.2, moment@^2.13.0, moment@^2.16.0, moment@^2.17.1:
@@ -5079,8 +5255,11 @@ moment-timezone@^0.5.4:
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.18.1.tgz#c36193dd3ce1c2eed2adb7c802dbbc77a81b1c0f"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 =======
     moment ">= 2.6.0"
 
@@ -5101,10 +5280,15 @@ ms@0.7.2:
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.2.tgz#ae25cf2512b3885a1d95d7f037868d8431124765"
 >>>>>>> added LRUCache and re-configured server
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 
 ms@2.0.0:
   version "2.0.0"
@@ -5162,8 +5346,11 @@ next-tick@1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 =======
 
 next-tick@~0.2.2:
@@ -5171,10 +5358,15 @@ next-tick@~0.2.2:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-0.2.2.tgz#75da4a927ee5887e39065880065b7336413b310d"
 >>>>>>> added LRUCache and re-configured server
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 
 next@^3.2.1:
   version "3.2.1"
@@ -5329,6 +5521,9 @@ normalize-package-data@^2.3.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> rebased with PR#6
 normalize-path@^2.0.0, normalize-path@^2.0.1:
 =======
 normalize-path@^2.0.0:
@@ -5336,12 +5531,15 @@ normalize-path@^2.0.0:
 =======
 normalize-path@^2.0.0, normalize-path@^2.0.1:
 >>>>>>> rebased with PR#6
+<<<<<<< HEAD
 =======
 normalize-path@^2.0.0, normalize-path@^2.0.1:
 =======
 normalize-path@^2.0.0:
 >>>>>>> added LRUCache and re-configured server
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-2.1.1.tgz#1ab28b556e198363a8c1a6f7e6fa20137fe6aed9"
   dependencies:
@@ -5349,8 +5547,11 @@ normalize-path@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 =======
 
 normalize-path@^2.0.1:
@@ -5358,10 +5559,15 @@ normalize-path@^2.0.1:
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-2.0.1.tgz#47886ac1662760d4261b7d979d241709d3ce3f7a"
 >>>>>>> added LRUCache and re-configured server
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 
 npm-run-path@^2.0.0:
   version "2.0.2"
@@ -5380,12 +5586,16 @@ npmlog@^4.0.2:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> added nprogress
+=======
+>>>>>>> rebased with PR#6
 nprogress@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/nprogress/-/nprogress-0.2.0.tgz#cb8f34c53213d895723fcbab907e9422adbcafb1"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 nth-check@~1.0.1:
@@ -5404,6 +5614,10 @@ nth-check@~1.0.1:
 =======
 >>>>>>> added nprogress
 >>>>>>> added nprogress
+=======
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
@@ -5421,6 +5635,7 @@ oauth-sign@~0.8.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> updated package.json and eslintrc
 =======
@@ -5428,9 +5643,13 @@ oauth-sign@~0.8.1:
 =======
 >>>>>>> added LRUCache and re-configured server
 =======
+>>>>>>> rebased with PR#6
+=======
 =======
 >>>>>>> updated package.json and eslintrc
 >>>>>>> updated package.json and eslintrc
+=======
+>>>>>>> rebased with PR#6
 oauth@0.9.x:
   version "0.9.15"
   resolved "https://registry.yarnpkg.com/oauth/-/oauth-0.9.15.tgz#bd1fefaf686c96b75475aed5196412ff60cfb9c1"
@@ -5439,6 +5658,7 @@ oauth@0.9.x:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> updated package.json and eslintrc
 =======
@@ -5450,10 +5670,14 @@ oauth@0.9.x:
 >>>>>>> rebased with PR#6
 =======
 =======
+>>>>>>> rebased with PR#6
+=======
 >>>>>>> added LRUCache and re-configured server
 >>>>>>> added LRUCache and re-configured server
 =======
 >>>>>>> updated package.json and eslintrc
+=======
+>>>>>>> rebased with PR#6
 object-assign@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-3.0.0.tgz#9bedd5ca0897949bca47e7ff408062d549f587f2"
@@ -5461,14 +5685,20 @@ object-assign@^3.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 object-assign@^4, object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5482,6 +5712,8 @@ object-is@^1.0.1:
 =======
 >>>>>>> added LRUCache and re-configured server
 =======
+>>>>>>> rebased with PR#6
+=======
 object-assign@^4, object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
@@ -5493,6 +5725,7 @@ object-assign@^4.0.1, object-assign@^4.1.0:
 >>>>>>> added LRUCache and re-configured server
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> added LRUCache and re-configured server
 =======
 =======
@@ -5500,6 +5733,10 @@ object-assign@^4.0.1, object-assign@^4.1.0:
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 object-keys@^1.0.10, object-keys@^1.0.8:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.0.11.tgz#c54601778ad560f1142ce0e01bcca8b56d13426d"
@@ -5514,10 +5751,15 @@ object.assign@^4.0.4:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 
 object.defaults@^1.1.0:
   version "1.1.0"
@@ -5527,6 +5769,7 @@ object.defaults@^1.1.0:
     array-slice "^1.0.0"
     for-own "^1.0.0"
     isobject "^3.0.0"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -5543,9 +5786,13 @@ object.entries@^1.0.4:
     function-bind "^1.1.0"
     has "^1.0.1"
 =======
+>>>>>>> rebased with PR#6
+=======
 =======
 >>>>>>> added LRUCache and re-configured server
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 
 object.omit@^2.0.0:
   version "2.0.1"
@@ -5983,17 +6230,25 @@ private@^0.1.6, private@^0.1.7:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 private@^0.1.7:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.7.tgz#68ce5e8a1ef0a23bb570cc28537b5332aba63ef1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 process-nextick-args@~1.0.6:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-1.0.7.tgz#150e20b756590ad3f91093f25a4f2ad8bff30ba3"
@@ -6012,8 +6267,11 @@ progress@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 =======
 
 promise@^7.0.1:
@@ -6023,10 +6281,15 @@ promise@^7.0.1:
     asap "~2.0.3"
 >>>>>>> added LRUCache and re-configured server
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 
 promise@^7.0.1, promise@^7.1.1:
   version "7.3.1"
@@ -6046,6 +6309,9 @@ prop-types-exact@^1.1.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> rebased with PR#6
 prop-types@15.5.10, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.8:
 =======
 =======
@@ -6092,7 +6358,13 @@ prop-types@15.5.10, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6,
 >>>>>>> updated package.json and eslintrc
 prop-types@15.5.10, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8:
 >>>>>>> added LRUCache and re-configured server
+<<<<<<< HEAD
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+prop-types@15.5.10, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8:
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
   version "15.5.10"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.10.tgz#2797dfc3126182e3a95e3dfbb2e893ddd7456154"
   dependencies:
@@ -6116,13 +6388,19 @@ prr@~0.0.0:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> rebased with PR#6
 pseudomap@^1.0.1:
 =======
 pseudomap@^1.0.1, pseudomap@^1.0.2:
 >>>>>>> rebased with PR#6
+<<<<<<< HEAD
 =======
 pseudomap@^1.0.1:
 >>>>>>> updated package.json and eslintrc
+=======
+>>>>>>> rebased with PR#6
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
 
@@ -6206,10 +6484,13 @@ rc@^1.1.7:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> rebased with PR#6
 =======
 
 <<<<<<< HEAD
@@ -6253,7 +6534,13 @@ react-addons-test-utils@^15.6.0:
 =======
 =======
 >>>>>>> updated package.json and eslintrc
+<<<<<<< HEAD
 >>>>>>> updated package.json and eslintrc
+=======
+=======
+
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 react-deep-force-update@^2.0.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-2.1.1.tgz#8ea4263cd6455a050b37445b3f08fd839d86e909"
@@ -6303,6 +6590,7 @@ react-motion@^0.5.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 react-portal@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/react-portal/-/react-portal-3.1.0.tgz#865c44fb72a1da106c649206936559ce891ee899"
@@ -6325,6 +6613,8 @@ react-overlays@^0.7.0:
 >>>>>>> added LRUCache and re-configured server
 =======
 >>>>>>> updated package.json and eslintrc
+=======
+>>>>>>> rebased with PR#6
 react-portal@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/react-portal/-/react-portal-3.1.0.tgz#865c44fb72a1da106c649206936559ce891ee899"
@@ -6341,12 +6631,15 @@ react-overlays@^0.7.0:
 
 =======
 >>>>>>> updated package.json and eslintrc
+=======
+>>>>>>> rebased with PR#6
 react-portal@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/react-portal/-/react-portal-3.1.0.tgz#865c44fb72a1da106c649206936559ce891ee899"
   dependencies:
     prop-types "^15.5.8"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 react-prop-types@^0.4.0:
   version "0.4.0"
@@ -6373,6 +6666,8 @@ react-prop-types@^0.4.0:
 =======
 >>>>>>> updated package.json and eslintrc
 >>>>>>> updated package.json and eslintrc
+=======
+>>>>>>> rebased with PR#6
 react-proxy@^3.0.0-alpha.0:
   version "3.0.0-alpha.1"
   resolved "https://registry.yarnpkg.com/react-proxy/-/react-proxy-3.0.0-alpha.1.tgz#4400426bcfa80caa6724c7755695315209fa4b07"
@@ -6391,6 +6686,7 @@ react-redux@^5.0.6:
     prop-types "^15.5.10"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 react-test-renderer@^15.6.1:
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-15.6.1.tgz#026f4a5bb5552661fd2cc4bbcd0d4bc8a35ebf7e"
@@ -6400,6 +6696,8 @@ react-test-renderer@^15.6.1:
 
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> rebased with PR#6
 =======
 react-tap-event-plugin@^2.0.1:
   version "2.0.1"
@@ -6418,6 +6716,9 @@ react-transition-group@^1.1.2:
     warning "^3.0.0"
 
 >>>>>>> rebased with PR#6
+<<<<<<< HEAD
+>>>>>>> rebased with PR#6
+=======
 >>>>>>> rebased with PR#6
 react@^15.6.1:
   version "15.6.1"
@@ -6471,18 +6772,27 @@ read-pkg@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.5, readable-stream@^2.0.6, readable-stream@^2.1.4, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.2.6:
 =======
 readable-stream@^2.0.1, readable-stream@^2.0.5, readable-stream@^2.0.6, readable-stream@^2.1.4, readable-stream@^2.2.2, readable-stream@^2.2.6:
 >>>>>>> added LRUCache and re-configured server
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.5, readable-stream@^2.0.6, readable-stream@^2.1.4, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.2.6:
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.5, readable-stream@^2.0.6, readable-stream@^2.1.4, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.2.6:
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.3.tgz#368f2512d79f9d46fdfc71349ae7878bbc1eb95c"
   dependencies:
@@ -6496,8 +6806,11 @@ readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.5, readable
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 readable-stream@^2.0.2, readable-stream@^2.1.5:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.2.2.tgz#a9e6fec3c7dda85f8bb1b3ba7028604556fc825e"
@@ -6513,10 +6826,15 @@ readable-stream@^2.0.2, readable-stream@^2.1.5:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 readable-stream@~1.1.9:
   version "1.1.14"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-1.1.14.tgz#7cf4c54ef648e3813084c636dd2079e166c081d9"
@@ -6528,12 +6846,17 @@ readable-stream@~1.1.9:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> added LRUCache and re-configured server
 =======
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 readdirp@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-2.1.0.tgz#4ed0ad060df3073300c48440373f72d1cc642d78"
@@ -6560,6 +6883,20 @@ recompose@0.24.0:
     hoist-non-react-statics "^1.0.0"
     symbol-observable "^1.0.4"
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+recompose@0.24.0:
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/recompose/-/recompose-0.24.0.tgz#262e93f974439eb17e7779824d88cce90492a5dd"
+  dependencies:
+    change-emitter "^0.1.2"
+    fbjs "^0.8.1"
+    hoist-non-react-statics "^1.0.0"
+    symbol-observable "^1.0.4"
+
+>>>>>>> rebased with PR#6
 >>>>>>> rebased with PR#6
 recursive-copy@^2.0.6:
   version "2.0.6"
@@ -6594,6 +6931,7 @@ redefine@^0.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> updated package.json and eslintrc
 =======
@@ -6604,6 +6942,12 @@ redefine@^0.2.0:
 =======
 >>>>>>> updated package.json and eslintrc
 >>>>>>> updated package.json and eslintrc
+=======
+=======
+>>>>>>> updated package.json and eslintrc
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 redis-commands@^1.2.0:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/redis-commands/-/redis-commands-1.3.1.tgz#81d826f45fa9c8b2011f4cd7a0fe597d241d442b"
@@ -6623,8 +6967,11 @@ redis@^2.1.0, redis@^2.8.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> updated package.json and eslintrc
+=======
+>>>>>>> rebased with PR#6
 redux-thunk@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/redux-thunk/-/redux-thunk-2.2.0.tgz#e615a16e16b47a19a515766133d1e3e99b7852e5"
@@ -6641,11 +6988,17 @@ redux-thunk@^2.2.0:
 =======
 =======
 >>>>>>> updated package.json and eslintrc
+<<<<<<< HEAD
 >>>>>>> updated package.json and eslintrc
+=======
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 redux-thunk@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/redux-thunk/-/redux-thunk-2.2.0.tgz#e615a16e16b47a19a515766133d1e3e99b7852e5"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> added LRUCache and re-configured server
@@ -6653,7 +7006,11 @@ redux-thunk@^2.2.0:
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 redux@^3.7.2:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/redux/-/redux-3.7.2.tgz#06b73123215901d25d065be342eb026bc1c8537b"
@@ -6799,8 +7156,11 @@ resolve@^1.0.0, resolve@^1.1.6, resolve@^1.1.7, resolve@^1.3.2, resolve@^1.3.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 =======
 resolve@^1.3.2, resolve@^1.3.3:
   version "1.4.0"
@@ -6810,10 +7170,15 @@ resolve@^1.3.2, resolve@^1.3.3:
 
 >>>>>>> added LRUCache and re-configured server
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 restore-cursor@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/restore-cursor/-/restore-cursor-2.0.0.tgz#9f7ee287f82fd326d4fd162923d62129eee0dfaf"
@@ -6837,6 +7202,7 @@ right-align@^0.1.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 rimraf@2, rimraf@^2.2.8, rimraf@^2.5.1, rimraf@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.1.tgz#c2338ec643df7a1b7fe5c54fa86f57428a55f33d"
@@ -6857,6 +7223,8 @@ rimraf@2, rimraf@^2.2.8, rimraf@^2.5.1, rimraf@^2.6.1:
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.1.tgz#c2338ec643df7a1b7fe5c54fa86f57428a55f33d"
 >>>>>>> rebased with PR#6
 =======
+=======
+>>>>>>> rebased with PR#6
 rimraf@2, rimraf@^2.2.8, rimraf@^2.5.1, rimraf@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.1.tgz#c2338ec643df7a1b7fe5c54fa86f57428a55f33d"
@@ -6871,7 +7239,15 @@ rimraf@^2.2.8:
   version "2.5.4"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.5.4.tgz#96800093cbf1a0c86bd95b4625467535c29dfa04"
 >>>>>>> added LRUCache and re-configured server
+<<<<<<< HEAD
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+rimraf@2, rimraf@^2.2.8, rimraf@^2.5.1, rimraf@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.1.tgz#c2338ec643df7a1b7fe5c54fa86f57428a55f33d"
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
   dependencies:
     glob "^7.0.5"
 
@@ -6902,8 +7278,11 @@ rx-lite-aggregates@^4.0.8:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 
 rx-lite@*, rx-lite@^4.0.8:
   version "4.0.8"
@@ -6911,10 +7290,15 @@ rx-lite@*, rx-lite@^4.0.8:
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 
 rx-lite@*, rx-lite@^4.0.8:
   version "4.0.8"
@@ -6922,12 +7306,17 @@ rx-lite@*, rx-lite@^4.0.8:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> added LRUCache and re-configured server
 =======
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
@@ -6965,6 +7354,7 @@ semantic-ui-react@^0.72.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "semver@2 || 3 || 4 || 5", semver@^5.0.1, semver@^5.1.0, semver@^5.3.0:
   version "5.4.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
@@ -6979,6 +7369,8 @@ semantic-ui-react@^0.72.0:
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
 >>>>>>> rebased with PR#6
 =======
+=======
+>>>>>>> rebased with PR#6
 "semver@2 || 3 || 4 || 5", semver@^5.0.1, semver@^5.1.0, semver@^5.3.0:
   version "5.4.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
@@ -6987,7 +7379,15 @@ semantic-ui-react@^0.72.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
 >>>>>>> added LRUCache and re-configured server
+<<<<<<< HEAD
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+"semver@2 || 3 || 4 || 5", semver@^5.0.1, semver@^5.1.0, semver@^5.3.0:
+  version "5.4.1"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 
 semver@4.3.2:
   version "4.3.2"
@@ -6996,10 +7396,15 @@ semver@4.3.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 semver@5.3.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
@@ -7009,18 +7414,26 @@ semver@^4.1.0:
   resolved "https://registry.yarnpkg.com/semver/-/semver-4.3.6.tgz#300bc6e0e86374f7ba61068b5b1ecd57fc6532da"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 =======
 semver@^5.3.0:
   version "5.4.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
 >>>>>>> added LRUCache and re-configured server
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 
 send@0.15.4, send@^0.15.3:
   version "0.15.4"
@@ -7565,6 +7978,7 @@ tmp@^0.0.31:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 tmpl@1.0.x:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
@@ -7573,6 +7987,8 @@ tmpl@1.0.x:
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 timers-ext@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/timers-ext/-/timers-ext-0.1.2.tgz#61cc47a76c1abd3195f14527f978d58ae94c5204"
@@ -7590,9 +8006,12 @@ tmp@^0.0.31:
 
 =======
 >>>>>>> rebased with PR#6
+<<<<<<< HEAD
 =======
 
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 to-arraybuffer@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/to-arraybuffer/-/to-arraybuffer-1.0.1.tgz#7d229b1fcc637e466ca081180836a7aabff83f43"
@@ -7715,8 +8134,11 @@ uid-safe@~2.1.4:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> updated package.json and eslintrc
+=======
+>>>>>>> rebased with PR#6
 =======
 >>>>>>> rebased with PR#6
 =======
@@ -7725,6 +8147,8 @@ uid-safe@~2.1.4:
 =======
 >>>>>>> updated package.json and eslintrc
 >>>>>>> updated package.json and eslintrc
+=======
+>>>>>>> rebased with PR#6
 uid2@0.0.x:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/uid2/-/uid2-0.0.3.tgz#483126e11774df2f71b8b639dcd799c376162b82"
@@ -7733,10 +8157,13 @@ uid2@0.0.x:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> added LRUCache and re-configured server
 =======
 >>>>>>> updated package.json and eslintrc
+=======
+>>>>>>> rebased with PR#6
 =======
 >>>>>>> rebased with PR#6
 =======
@@ -7747,6 +8174,8 @@ uid2@0.0.x:
 >>>>>>> added LRUCache and re-configured server
 =======
 >>>>>>> updated package.json and eslintrc
+=======
+>>>>>>> rebased with PR#6
 umzug@^1.12.0:
   version "1.12.0"
   resolved "https://registry.yarnpkg.com/umzug/-/umzug-1.12.0.tgz#a79c91f2862eee3130c6c347f2b90ad68a66e8b8"
@@ -7766,10 +8195,13 @@ unc-path-regex@^0.1.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> added LRUCache and re-configured server
 =======
 >>>>>>> updated package.json and eslintrc
+=======
+>>>>>>> rebased with PR#6
 unfetch@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/unfetch/-/unfetch-3.0.0.tgz#8d1e0513a4ecd0e5ff2d41a6ba77771aae8b6482"
@@ -7793,6 +8225,8 @@ uncontrollable@^4.1.0:
 =======
 >>>>>>> updated package.json and eslintrc
 >>>>>>> updated package.json and eslintrc
+=======
+>>>>>>> rebased with PR#6
 unfetch@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/unfetch/-/unfetch-3.0.0.tgz#8d1e0513a4ecd0e5ff2d41a6ba77771aae8b6482"
@@ -7864,18 +8298,26 @@ validator@^8.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 vary@^1, vary@~1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.1.tgz#67535ebb694c1d52257457984665323f587e8d37"
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+>>>>>>> rebased with PR#6
 =======
 vary@^1:
   version "1.1.0"
@@ -7887,10 +8329,15 @@ vary@~1.1.1:
 
 >>>>>>> added LRUCache and re-configured server
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> rebased with PR#6
 =======
 >>>>>>> added LRUCache and re-configured server
+=======
+=======
+>>>>>>> rebased with PR#6
+>>>>>>> rebased with PR#6
 verror@1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/verror/-/verror-1.10.0.tgz#3a105ca17053af55d6e270c1f8288682e18da400"
@@ -7940,6 +8387,7 @@ walk@^2.3.9:
     foreachasync "^3.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 walker@~1.0.5:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/walker/-/walker-1.0.7.tgz#2f7f9b8fd10d677262b18a884e28d19618e028fb"
@@ -7953,6 +8401,8 @@ watch@~0.10.0:
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> rebased with PR#6
+=======
 warning@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/warning/-/warning-3.0.0.tgz#32e5377cb572de4ab04753bdf8821c01ed605b7c"
@@ -7960,6 +8410,9 @@ warning@^3.0.0:
     loose-envify "^1.0.0"
 
 >>>>>>> rebased with PR#6
+<<<<<<< HEAD
+>>>>>>> rebased with PR#6
+=======
 >>>>>>> rebased with PR#6
 watchpack@^1.4.0:
   version "1.4.0"
