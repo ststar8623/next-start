@@ -3,6 +3,7 @@ const path = require('path');
 const Sequelize = require('sequelize');
 const _ = require('lodash');
 const config = require('config')['sequelize'];
+<<<<<<< ff3d972a585961848d9cedb97c787b9313d98eac
 <<<<<<< 3ad2161f45f883c4ac8673e2ab83252437115d45
 
 let db = {};
@@ -10,6 +11,10 @@ let db = {};
 var db        = {};
 
 >>>>>>> migrate db
+=======
+
+let db = {};
+>>>>>>> database setup
 // TODO - per-environment config
 const sequelize = new Sequelize(config.database, config.user, config.password, {
   host: config.host,
@@ -19,12 +24,17 @@ const sequelize = new Sequelize(config.database, config.user, config.password, {
 fs
   .readdirSync(__dirname)
   .filter(function(file) {
+<<<<<<< ff3d972a585961848d9cedb97c787b9313d98eac
 <<<<<<< 3ad2161f45f883c4ac8673e2ab83252437115d45
     console.log('file', file);
     return file.indexOf('.') !== 0 && file !== 'index.js';
 =======
     return (file.indexOf('.') !== 0) && (file !== basename) && (file.slice(-3) === '.js');
 >>>>>>> migrate db
+=======
+    console.log('file', file);
+    return file.indexOf('.') !== 0 && file !== 'index.js';
+>>>>>>> database setup
   })
   .forEach(function(file) {
     var model = sequelize['import'](path.join(__dirname, file));
@@ -37,6 +47,7 @@ Object.keys(db).forEach(function(modelName) {
   }
 });
 
+<<<<<<< ff3d972a585961848d9cedb97c787b9313d98eac
 <<<<<<< 3ad2161f45f883c4ac8673e2ab83252437115d45
 sequelize.sync({ force: true });
 
@@ -54,6 +65,10 @@ db.topping.belongsToMany(db.image, { through: 'topping_images' });
 db.image.belongsToMany(db.topping, { through: 'topping_images' });
 
 =======
+=======
+sequelize.sync();
+
+>>>>>>> database setup
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
