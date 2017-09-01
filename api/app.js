@@ -10,6 +10,7 @@ const app = next({ dev });
 const handle = app.getRequestHandler();
 
 const port = process.env.PORT || 3000;
+const db = require('../models');
 
 app
   .prepare()
