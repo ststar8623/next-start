@@ -14,9 +14,7 @@
       "callbackURL": "http://localhost:3000/auth/facebook/callback"
     }
   },
-
   "redis": {},
-
   "passport": {
     "facebook": {}
   }

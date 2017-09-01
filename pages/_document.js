@@ -14,6 +14,7 @@ export default class MyDocument extends Document {
           <title>No-line</title>
           <link
             rel="stylesheet"
+<<<<<<< 0b6c14f76c44ebeecccd22825b7d7328b0367642
             type="text/css"
             href="/static/css/nprogress.css"
           />
@@ -21,6 +22,10 @@ export default class MyDocument extends Document {
             rel="stylesheet"
             href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"
           />
+=======
+            href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"
+          />
+>>>>>>> rebasing
         </Head>
         <body>
           <Main />
