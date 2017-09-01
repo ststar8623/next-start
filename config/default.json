@@ -7,10 +7,22 @@
     "host": "localhost",
     "port": 5432
   },
+  "passport": {
+    "facebook": {
+      "clientID": "444516115942000",
+      "clientSecret": "e28adc1bf30fbbd385184d1ca56a08ef",
+      "callbackURL": "http://localhost:3000/auth/facebook/callback"
+    }
+  },
 
+<<<<<<< 0b6c14f76c44ebeecccd22825b7d7328b0367642
   "redis": {},
 
   "passport": {
     "facebook": {}
   }
 }
+=======
+  "redis": {}
+}
+>>>>>>> rebasing

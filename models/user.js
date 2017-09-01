@@ -1,4 +1,3 @@
-<<<<<<< b8fe74562a761868741e49a201368fdac3850061
 const bcrypt = require('bcryptjs');
 const crypto = require('crypto');
 
@@ -74,13 +73,6 @@ module.exports = function(db, DataTypes) {
       isEmail: true
     },
     tokens: DataTypes.JSON
-=======
-'use strict';
-module.exports = function(sequelize, DataTypes) {
-  var User = sequelize.define('User', {
-    name: DataTypes.STRING,
-    email: DataTypes.STRING
->>>>>>> migrate db
   }, {
     classMethods: {
       associate: function(models) {

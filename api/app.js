@@ -20,6 +20,7 @@ app
     server.use(middleware.passport.initialize());
     server.use(middleware.passport.session());
 
+<<<<<<< 0b6c14f76c44ebeecccd22825b7d7328b0367642
     // pages endpoint
     server.get('/', (req, res) => app.render(req, res, '/', req.query));
     server.get('/signin', (req, res) =>
@@ -28,6 +29,9 @@ app
 
     // data endpoint
     server.use('/auth', routes.auth);
+=======
+    server.get('/', (req, res) => app.render(req, res, '/', req.query));
+>>>>>>> rebasing
     server.get('*', handle);
 
     server.listen(port, () => console.log(`listening on port ${port}`));
