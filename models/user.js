@@ -1,5 +1,5 @@
-module.exports = (db, DataTypes) => {
-  const User = db.define('user', {
+module.exports = function(db, DataTypes) {
+  let User = db.define('User', {
     id: {
       type: DataTypes.INTEGER,
       autoIncrement: true,
