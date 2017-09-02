@@ -17,3 +17,6 @@ yarn-error.log
 # config
 config/development.json
 config/production.json
+
+# database
+database
