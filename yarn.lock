@@ -5123,10 +5123,14 @@ npmlog@^4.0.2:
     set-blocking "~2.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> added nprogress
 nprogress@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/nprogress/-/nprogress-0.2.0.tgz#cb8f34c53213d895723fcbab907e9422adbcafb1"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 nth-check@~1.0.1:
   version "1.0.1"
@@ -5138,6 +5142,12 @@ nth-check@~1.0.1:
 =======
 >>>>>>> rebased with PR#6
 >>>>>>> rebased with PR#6
+=======
+=======
+>>>>>>> rebased with PR#6
+=======
+>>>>>>> added nprogress
+>>>>>>> added nprogress
 number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
