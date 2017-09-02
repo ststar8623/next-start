@@ -28,9 +28,19 @@ Object.keys(db).forEach(function(modelName) {
   }
 });
 
-sequelize.sync();
+sequelize.sync({ force: true });
 
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
+
+db.menu.belongsTo(db.store);
+db.sold.belongsTo(db.menu);
+db.sold.belongsTo(db.user);
+db.sold.belongsToMany(db.topping, { through: 'sold_toppings' });
+db.topping.belongsToMany(db.sold, { through: 'sold_toppings' });
+db.menu.belongsToMany(db.image, { through: 'menu_images' });
+db.image.belongsToMany(db.menu, { through: 'menu_images' });
+db.topping.belongsToMany(db.image, { through: 'topping_images' });
+db.image.belongsToMany(db.topping, { through: 'topping_images' });
 
 module.exports = db;

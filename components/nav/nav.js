@@ -1,7 +1,3 @@
-<<<<<<< db17502300b763ab2e250c9aaee7bb5a3f627759
-=======
-import React from 'react';
->>>>>>> database setup
 import { Editor, Raw } from 'slate';
 import { connect } from 'react-redux';
 import { Menu } from 'semantic-ui-react';

@@ -15,14 +15,9 @@
     }
   },
 
-<<<<<<< 0b6c14f76c44ebeecccd22825b7d7328b0367642
   "redis": {},
 
   "passport": {
     "facebook": {}
   }
 }
-=======
-  "redis": {}
-}
->>>>>>> rebasing
