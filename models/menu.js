@@ -14,7 +14,10 @@ module.exports = (db, DataTypes) => {
       type: DataTypes.INTEGER,
       allowNUll: false
     },
-    description: DataTypes.TEXT
+    description: {
+      type: DataTypes.TEXT,
+      allowNull: true
+    }
   });
 
   return Menu;

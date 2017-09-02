@@ -14,7 +14,6 @@ const sequelize = new Sequelize(config.database, config.user, config.password, {
 fs
   .readdirSync(__dirname)
   .filter(function(file) {
-    console.log('file', file);
     return file.indexOf('.') !== 0 && file !== 'index.js';
   })
   .forEach(function(file) {
