@@ -5,7 +5,6 @@ const _ = require('lodash');
 const config = require('config')['sequelize'];
 
 let db = {};
-
 // TODO - per-environment config
 const sequelize = new Sequelize(config.database, config.user, config.password, {
   host: config.host,
