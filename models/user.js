@@ -1,7 +1,7 @@
 module.exports = function(db, DataTypes) {
   let User = db.define('User', {
     id: {
-      type: DataType.INTEGER,
+      type: DataTypes.INTEGER,
       autoIncrement: true,
       allowNull: false,
       primaryKey: true
@@ -19,7 +19,7 @@ module.exports = function(db, DataTypes) {
       unique: true
     },
     email: {
-      type: DataType.STRING,
+      type: DataTypes.STRING,
       unique: true,
       allowNull: false,
       isEmail: true

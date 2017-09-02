@@ -1,16 +1,12 @@
 module.exports = (db, DataTypes) => {
-  const Image = db.define('image', {
+  const Menu_Image = db.define('menu_image', {
     id: {
       type: DataTypes.INTEGER,
       autoIncrement: true,
       allowNull: false,
       primaryKey: true
-    },
-    url: {
-      type: DataTypes.TEXT,
-      allowNull: false
     }
   });
 
-  return Image;
+  return Menu_Image;
 };
