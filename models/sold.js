@@ -1,21 +1,18 @@
 module.exports = (db, DataTypes) => {
-  const Menu = db.define('menu', {
+  const Sold = db.define('sold', {
     id: {
       type: DataTypes.INTEGER,
       autoIncrement: true,
       allowNull: false,
       primaryKey: true
     },
-    name: {
-      type: DataTypes.STRING,
+    profit: {
+      type: DataTypes.INTEGER,
       allowNull: false
     },
-    price: {
-      type: DataTypes.INTEGER,
-      allowNUll: false
-    },
-    description: DataTypes.TEXT
+    ice_level: DataTypes.INTEGER,
+    sugar_level: DataTypes.INTEGER
   });
 
-  return Menu;
+  return Sold;
 };

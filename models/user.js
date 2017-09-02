@@ -1,33 +1,33 @@
-module.exports = (db, DataType) => {
+module.exports = (db, DataTypes) => {
   const User = db.define('user', {
     id: {
-      type: DataType.INTEGER,
+      type: DataTypes.INTEGER,
       autoIncrement: true,
       allowNull: false,
       primaryKey: true
     },
     google_id: {
-      type: DataType.STRING,
+      type: DataTypes.STRING,
       unique: true
     },
     facebook_id: {
-      type: DataType.STRING,
+      type: DataTypes.STRING,
       unique: true
     },
     twitter_id: {
-      type: DataType.STRING,
+      type: DataTypes.STRING,
       unique: true
     },
     email: {
-      type: DataType.STRING,
+      type: DataTypes.STRING,
       unique: true,
       allowNull: false,
       isEmail: true
     },
-    facebook_profile_image: DataType.TEXT,
-    google_profile_image: DataType.TEXT,
-    firstName: DataType.STRING,
-    lastName: DataType.STRING
+    facebook_profile_image: DataTypes.TEXT,
+    google_profile_image: DataTypes.TEXT,
+    firstName: DataTypes.STRING,
+    lastName: DataTypes.STRING
   });
   return User;
 };
