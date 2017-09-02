@@ -14,8 +14,9 @@ module.exports = (db, DataTypes) => {
       type: DataTypes.INTEGER,
       allowNUll: false
     },
-    description: DataTypes.TEXT,
-      allowNull: false
+    description: {
+      type: DataTypes.TEXT,
+      allowNull: true
     }
   });
 

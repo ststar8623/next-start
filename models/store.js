@@ -30,7 +30,12 @@ module.exports = (db, DataTypes) => {
       type: DataTypes.INTEGER,
       allowNull: false
     },
-    email: DataTypes.TEXT
+    email: {
+      type: DataTypes.TEXT,
+      allowNull: false,
+      isEmail: true,
+      unique: true
+    }
   });
 
   return Store;

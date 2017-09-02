@@ -15,7 +15,6 @@ const sequelize = new Sequelize(config.database, config.user, config.password, {
 fs
   .readdirSync(__dirname)
   .filter(function(file) {
-    console.log('file', file);
     return file.indexOf('.') !== 0 && file !== 'index.js';
   })
   .forEach(function(file) {
@@ -43,7 +42,5 @@ db.menu.belongsToMany(db.image, { through: 'menu_images' });
 db.image.belongsToMany(db.menu, { through: 'menu_images' });
 db.topping.belongsToMany(db.image, { through: 'topping_images' });
 db.image.belongsToMany(db.topping, { through: 'topping_images' });
-
-sequelize.sync();
 
 module.exports = db;
