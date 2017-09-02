@@ -23,9 +23,8 @@ app
 
     // pages endpoint
     server.get('/', (req, res) => app.render(req, res, '/', req.query));
-    server.get('/signin', (req, res) =>
-      app.render(req, res, '/signin', req.query)
-    );
+    server.get('/signin', (req, res) => app.render(req, res, '/signin', req.query));
+    server.get('/signout', middleware.auth.signout, (req, res) => app.render(req, res, '/'));
 
     // data endpoint
     server.use('/auth', routes.auth);

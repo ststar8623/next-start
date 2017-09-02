@@ -18,3 +18,8 @@ module.exports.verify = (req, res, next) => {
   }
   res.redirect('/signin');
 };
+
+module.exports.signout = (req, res, next) => {
+  req.logout();
+  next();
+};
