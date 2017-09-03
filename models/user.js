@@ -20,9 +20,9 @@ module.exports = (db, DataTypes) => {
     },
     email: {
       type: DataTypes.STRING,
-      // unique: true,
+      unique: true,
       // allowNull: false,
-      // isEmail: true
+      isEmail: true
     },
     facebook_profile_image: DataTypes.TEXT,
     google_profile_image: DataTypes.TEXT,

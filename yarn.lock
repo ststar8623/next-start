@@ -1135,153 +1135,7 @@ babel-runtime@6.23.0:
     core-js "^2.4.0"
     regenerator-runtime "^0.10.0"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added sidebar and removed LRUCache
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> updated package.json and eslintrc
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
-<<<<<<< HEAD
->>>>>>> updated package.json and eslintrc
-=======
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
 babel-runtime@^6.18.0, babel-runtime@^6.20.0, babel-runtime@^6.22.0, babel-runtime@^6.25.0, babel-runtime@^6.26.0:
-=======
-=======
->>>>>>> added LRUCache and re-configured server
-babel-runtime@^6.0.0, babel-runtime@^6.11.6, babel-runtime@^6.18.0, babel-runtime@^6.20.0:
-  version "6.20.0"
-  resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.20.0.tgz#87300bdcf4cd770f09bf0048c64204e17806d16f"
->>>>>>> added LRUCache and re-configured server
-  dependencies:
-    core-js "^2.4.0"
-    regenerator-runtime "^0.10.0"
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> added sidebar and removed LRUCache
-babel-runtime@^6.18.0, babel-runtime@^6.20.0, babel-runtime@^6.22.0, babel-runtime@^6.23.0, babel-runtime@^6.25.0, babel-runtime@^6.26.0:
->>>>>>> added LRUCache and re-configured server
-=======
-babel-runtime@^6.18.0, babel-runtime@^6.20.0, babel-runtime@^6.22.0, babel-runtime@^6.23.0, babel-runtime@^6.25.0, babel-runtime@^6.26.0:
-=======
-babel-runtime@^6.0.0, babel-runtime@^6.18.0, babel-runtime@^6.20.0:
-  version "6.20.0"
-  resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.20.0.tgz#87300bdcf4cd770f09bf0048c64204e17806d16f"
-  dependencies:
-    core-js "^2.4.0"
-    regenerator-runtime "^0.10.0"
-
-babel-runtime@^6.22.0, babel-runtime@^6.23.0, babel-runtime@^6.25.0, babel-runtime@^6.26.0:
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-=======
-babel-runtime@^6.18.0, babel-runtime@^6.20.0, babel-runtime@^6.22.0, babel-runtime@^6.23.0, babel-runtime@^6.25.0, babel-runtime@^6.26.0:
->>>>>>> rebased with PR#6
-=======
-=======
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added sidebar and removed LRUCache
-<<<<<<< HEAD
->>>>>>> added sidebar and removed LRUCache
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-babel-runtime@^6.18.0, babel-runtime@^6.20.0, babel-runtime@^6.22.0, babel-runtime@^6.23.0, babel-runtime@^6.25.0, babel-runtime@^6.26.0:
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-babel-runtime@^6.18.0, babel-runtime@^6.20.0, babel-runtime@^6.22.0, babel-runtime@^6.23.0, babel-runtime@^6.25.0, babel-runtime@^6.26.0:
-=======
-babel-runtime@^6.0.0, babel-runtime@^6.18.0, babel-runtime@^6.20.0:
-  version "6.20.0"
-  resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.20.0.tgz#87300bdcf4cd770f09bf0048c64204e17806d16f"
-  dependencies:
-    core-js "^2.4.0"
-    regenerator-runtime "^0.10.0"
-
-babel-runtime@^6.22.0, babel-runtime@^6.23.0, babel-runtime@^6.25.0, babel-runtime@^6.26.0:
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-<<<<<<< HEAD
->>>>>>> updated package.json and eslintrc
-=======
-=======
-babel-runtime@^6.18.0, babel-runtime@^6.20.0, babel-runtime@^6.22.0, babel-runtime@^6.23.0, babel-runtime@^6.25.0, babel-runtime@^6.26.0:
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
-=======
-babel-runtime@^6.18.0, babel-runtime@^6.20.0, babel-runtime@^6.22.0, babel-runtime@^6.23.0, babel-runtime@^6.25.0, babel-runtime@^6.26.0:
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-=======
-babel-runtime@^6.0.0, babel-runtime@^6.18.0, babel-runtime@^6.20.0:
-  version "6.20.0"
-  resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.20.0.tgz#87300bdcf4cd770f09bf0048c64204e17806d16f"
-  dependencies:
-    core-js "^2.4.0"
-    regenerator-runtime "^0.10.0"
-
-babel-runtime@^6.22.0, babel-runtime@^6.23.0, babel-runtime@^6.25.0, babel-runtime@^6.26.0:
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-<<<<<<< HEAD
->>>>>>> updated package.json and eslintrc
-<<<<<<< HEAD
->>>>>>> updated package.json and eslintrc
-=======
-=======
-=======
-babel-runtime@^6.18.0, babel-runtime@^6.20.0, babel-runtime@^6.22.0, babel-runtime@^6.23.0, babel-runtime@^6.25.0, babel-runtime@^6.26.0:
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-babel-runtime@^6.18.0, babel-runtime@^6.20.0, babel-runtime@^6.22.0, babel-runtime@^6.25.0, babel-runtime@^6.26.0:
->>>>>>> added google and twitter oauth
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
   dependencies:
@@ -1339,68 +1193,13 @@ babel-traverse@^6.18.0, babel-traverse@^6.23.1, babel-traverse@^6.24.1, babel-tr
 babel-types@6.23.0:
   version "6.23.0"
   resolved "https://registry.yarnpkg.com/babel-types/-/babel-types-6.23.0.tgz#bb17179d7538bad38cd0c9e115d340f77e7e9acf"
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
   dependencies:
     babel-runtime "^6.22.0"
     esutils "^2.0.2"
     lodash "^4.2.0"
     to-fast-properties "^1.0.1"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 babel-types@^6.18.0, babel-types@^6.19.0, babel-types@^6.21.0, babel-types@^6.23.0, babel-types@^6.24.1, babel-types@^6.25.0, babel-types@^6.26.0:
-=======
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added LRUCache and re-configured server
-babel-types@^6.19.0, babel-types@^6.21.0:
-  version "6.21.0"
-  resolved "https://registry.yarnpkg.com/babel-types/-/babel-types-6.21.0.tgz#314b92168891ef6d3806b7f7a917fdf87c11a4b2"
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added google and twitter oauth
-  dependencies:
-    babel-runtime "^6.22.0"
-    esutils "^2.0.2"
-    lodash "^4.2.0"
-    to-fast-properties "^1.0.1"
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-babel-types@^6.19.0, babel-types@^6.21.0, babel-types@^6.23.0, babel-types@^6.24.1, babel-types@^6.25.0, babel-types@^6.26.0:
-=======
-babel-types@^6.23.0, babel-types@^6.24.1, babel-types@^6.25.0, babel-types@^6.26.0:
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
-babel-types@^6.19.0, babel-types@^6.21.0, babel-types@^6.23.0, babel-types@^6.24.1, babel-types@^6.25.0, babel-types@^6.26.0:
->>>>>>> added sidebar and removed LRUCache
-=======
-babel-types@^6.19.0, babel-types@^6.21.0, babel-types@^6.23.0, babel-types@^6.24.1, babel-types@^6.25.0, babel-types@^6.26.0:
-=======
-babel-types@^6.23.0, babel-types@^6.24.1, babel-types@^6.25.0, babel-types@^6.26.0:
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
-babel-types@^6.19.0, babel-types@^6.21.0, babel-types@^6.23.0, babel-types@^6.24.1, babel-types@^6.25.0, babel-types@^6.26.0:
->>>>>>> added sidebar and removed LRUCache
-=======
-babel-types@^6.19.0, babel-types@^6.21.0, babel-types@^6.23.0, babel-types@^6.24.1, babel-types@^6.25.0, babel-types@^6.26.0:
-=======
-babel-types@^6.23.0, babel-types@^6.24.1, babel-types@^6.25.0, babel-types@^6.26.0:
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
-babel-types@^6.19.0, babel-types@^6.21.0, babel-types@^6.23.0, babel-types@^6.24.1, babel-types@^6.25.0, babel-types@^6.26.0:
->>>>>>> added google and twitter oauth
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-types/-/babel-types-6.26.0.tgz#a3b073f94ab49eb6fa55cd65227a334380632497"
   dependencies:
@@ -1413,39 +1212,7 @@ babylon@6.14.1:
   version "6.14.1"
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.14.1.tgz#956275fab72753ad9b3435d7afe58f8bf0a29815"
 
-<<<<<<< HEAD
 babylon@^6.11.0, babylon@^6.17.0, babylon@^6.17.2, babylon@^6.17.4, babylon@^6.18.0:
-=======
-babylon@^6.11.0, babylon@^6.17.0, babylon@^6.17.2, babylon@^6.18.0:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-babylon@6.14.1, babylon@^6.11.0:
-  version "6.14.1"
-  resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.14.1.tgz#956275fab72753ad9b3435d7afe58f8bf0a29815"
-
-babylon@^6.17.0, babylon@^6.17.2, babylon@^6.18.0:
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added sidebar and removed LRUCache
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added sidebar and removed LRUCache
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added google and twitter oauth
   version "6.18.0"
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.18.0.tgz#af2f3b88fa6f5c1e4c634d1a0f8eac4f55b395e3"
 
@@ -1489,21 +1256,6 @@ bluebird@^3.0.5, bluebird@^3.4.1, bluebird@^3.4.6, bluebird@^3.5.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.0.tgz#791420d7f551eea2897453a8a77653f96606d67c"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-bluebird@^3.4.1, bluebird@^3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.0.tgz#791420d7f551eea2897453a8a77653f96606d67c"
-
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
   version "4.11.8"
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
@@ -1723,10 +1475,6 @@ chalk@^2.0.0, chalk@^2.1.0:
     escape-string-regexp "^1.0.5"
     supports-color "^4.0.0"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 cheerio@^0.22.0:
   version "0.22.0"
   resolved "https://registry.yarnpkg.com/cheerio/-/cheerio-0.22.0.tgz#a9baa860a3f9b595a6b81b1a86873121ed3a269e"
@@ -1748,29 +1496,6 @@ cheerio@^0.22.0:
     lodash.reject "^4.4.0"
     lodash.some "^4.4.0"
 
-=======
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-change-emitter@^0.1.2:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/change-emitter/-/change-emitter-0.1.6.tgz#e8b2fe3d7f1ab7d69a32199aff91ea6931409515"
-
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 chokidar@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-1.7.0.tgz#798e689778151c8076b4b360e5edd28cda2bb468"
@@ -2069,10 +1794,6 @@ crypto@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/crypto/-/crypto-1.0.1.tgz#2af1b7cad8175d24c8a1b0778255794a21803037"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 css-select@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/css-select/-/css-select-1.2.0.tgz#2b3a110539c5355f1cd8d314623e870b121ec858"
@@ -2082,31 +1803,6 @@ css-select@~1.2.0:
     domutils "1.5.1"
     nth-check "~1.0.1"
 
-=======
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-css-in-js-utils@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/css-in-js-utils/-/css-in-js-utils-1.0.3.tgz#9ac7e02f763cf85d94017666565ed68a5b5f3215"
-  dependencies:
-    hyphenate-style-name "^1.0.2"
-
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 css-tree@1.0.0-alpha17:
   version "1.0.0-alpha17"
   resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-1.0.0-alpha17.tgz#7ab95ab72c533917af8be54313fec81841c5223a"
@@ -2153,46 +1849,7 @@ debug@2.6.7:
   dependencies:
     ms "2.0.0"
 
-<<<<<<< HEAD
-debug@2.6.8, debug@^2.6.8:
-  version "2.6.8"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.8.tgz#e731531ca2ede27d188222427da17821d68ff4fc"
-  dependencies:
-    ms "2.0.0"
-
-debug@^2.1.1, debug@^2.3.2:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-2.5.1.tgz#9107bb4a506052ec2a02314bc606313ed2b921c1"
-  dependencies:
-    ms "0.7.2"
-
-debug@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-2.2.0.tgz#f87057e995b1a1f6ae6a4960664137bc56f039da"
->>>>>>> added LRUCache and re-configured server
-  dependencies:
-    ms "2.0.0"
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 debug@2.6.8, debug@^2.1.1, debug@^2.2.0, debug@^2.3.2, debug@^2.6.3, debug@^2.6.8:
-=======
-<<<<<<< HEAD
-=======
->>>>>>> added sidebar and removed LRUCache
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added sidebar and removed LRUCache
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added google and twitter oauth
-debug@2.6.8, debug@^2.1.1, debug@^2.2.0, debug@^2.3.2, debug@^2.6.8:
->>>>>>> added LRUCache and re-configured server
   version "2.6.8"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.8.tgz#e731531ca2ede27d188222427da17821d68ff4fc"
   dependencies:
@@ -2324,10 +1981,6 @@ doctrine@^2.0.0:
     esutils "^2.0.2"
     isarray "^1.0.0"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 dom-serializer@0, dom-serializer@~0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/dom-serializer/-/dom-serializer-0.1.0.tgz#073c697546ce0780ce23be4a28e293e40bc30c82"
@@ -2335,29 +1988,6 @@ dom-serializer@0, dom-serializer@~0.1.0:
     domelementtype "~1.1.1"
     entities "~1.1.1"
 
-=======
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-dom-helpers@^3.2.0:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-3.2.1.tgz#3203e07fed217bd1f424b019735582fc37b2825a"
-
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 dom-walk@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/dom-walk/-/dom-walk-0.1.1.tgz#672226dc74c8f799ad35307df936aba11acd6018"
@@ -2520,18 +2150,6 @@ error-stack-parser@^2.0.0:
   dependencies:
     stackframe "^1.0.3"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 es-abstract@^1.6.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.8.1.tgz#fd85a3bdfa67786ce7be7e1584678e119cd70c04"
@@ -2550,85 +2168,7 @@ es-to-primitive@^1.1.1:
     is-date-object "^1.0.1"
     is-symbol "^1.0.1"
 
-=======
->>>>>>> updated package.json and eslintrc
-=======
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
 es5-ext@^0.10.12, es5-ext@^0.10.14, es5-ext@^0.10.30, es5-ext@^0.10.9, es5-ext@~0.10.14, es5-ext@~0.10.2:
->>>>>>> rebased with PR#6
-=======
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added sidebar and removed LRUCache
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> updated package.json and eslintrc
-es5-ext@^0.10.12, es5-ext@^0.10.14, es5-ext@^0.10.30, es5-ext@^0.10.9, es5-ext@~0.10.14, es5-ext@~0.10.2:
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-es5-ext@^0.10.12, es5-ext@^0.10.14, es5-ext@^0.10.30, es5-ext@^0.10.9, es5-ext@~0.10.14, es5-ext@~0.10.2:
-=======
-es5-ext@^0.10.12, es5-ext@^0.10.14, es5-ext@^0.10.30, es5-ext@^0.10.9, es5-ext@~0.10.14:
->>>>>>> updated package.json and eslintrc
-=======
-es5-ext@^0.10.12, es5-ext@^0.10.14, es5-ext@^0.10.30, es5-ext@^0.10.9, es5-ext@~0.10.14, es5-ext@~0.10.2:
->>>>>>> rebased with PR#6
-=======
-es5-ext@^0.10.12, es5-ext@^0.10.14, es5-ext@^0.10.30, es5-ext@^0.10.9, es5-ext@~0.10.14, es5-ext@~0.10.2:
-=======
-es5-ext@^0.10.12, es5-ext@^0.10.14, es5-ext@^0.10.30, es5-ext@^0.10.9, es5-ext@~0.10.14:
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-es5-ext@^0.10.12, es5-ext@^0.10.14, es5-ext@^0.10.30, es5-ext@^0.10.9, es5-ext@~0.10.14, es5-ext@~0.10.2:
->>>>>>> added sidebar and removed LRUCache
-=======
-=======
->>>>>>> rebased with PR#6
-=======
-=======
-es5-ext@^0.10.12, es5-ext@^0.10.14, es5-ext@^0.10.30, es5-ext@^0.10.9, es5-ext@~0.10.14, es5-ext@~0.10.2:
->>>>>>> added sidebar and removed LRUCache
-=======
->>>>>>> updated package.json and eslintrc
-es5-ext@^0.10.12, es5-ext@^0.10.14, es5-ext@^0.10.30, es5-ext@^0.10.9, es5-ext@~0.10.14, es5-ext@~0.10.2:
-=======
-es5-ext@^0.10.12, es5-ext@^0.10.14, es5-ext@^0.10.30, es5-ext@^0.10.9, es5-ext@~0.10.14:
->>>>>>> updated package.json and eslintrc
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> updated package.json and eslintrc
-=======
-=======
-es5-ext@^0.10.12, es5-ext@^0.10.14, es5-ext@^0.10.30, es5-ext@^0.10.9, es5-ext@~0.10.14, es5-ext@~0.10.2:
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-<<<<<<< HEAD
->>>>>>> updated package.json and eslintrc
-=======
-=======
-es5-ext@^0.10.12, es5-ext@^0.10.14, es5-ext@^0.10.30, es5-ext@^0.10.9, es5-ext@~0.10.14, es5-ext@~0.10.2:
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-es5-ext@^0.10.12, es5-ext@^0.10.14, es5-ext@^0.10.30, es5-ext@^0.10.9, es5-ext@~0.10.14, es5-ext@~0.10.2:
->>>>>>> added google and twitter oauth
   version "0.10.30"
   resolved "https://registry.yarnpkg.com/es5-ext/-/es5-ext-0.10.30.tgz#7141a16836697dbabfaaaeee41495ce29f52c939"
   dependencies:
@@ -2636,31 +2176,6 @@ es5-ext@^0.10.12, es5-ext@^0.10.14, es5-ext@^0.10.30, es5-ext@^0.10.9, es5-ext@~
     es6-symbol "~3.1"
 
 es6-iterator@2, es6-iterator@^2.0.1, es6-iterator@~2.0.1:
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-es6-iterator@2, es6-iterator@^2.0.1, es6-iterator@~2.0.1:
-=======
-es5-ext@^0.10.7, es5-ext@~0.10.11, es5-ext@~0.10.2, es5-ext@~0.10.7:
-  version "0.10.12"
-  resolved "https://registry.yarnpkg.com/es5-ext/-/es5-ext-0.10.12.tgz#aa84641d4db76b62abba5e45fd805ecbab140047"
-  dependencies:
-    es6-iterator "2"
-    es6-symbol "~3.1"
-
-es6-iterator@2:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/es6-iterator/-/es6-iterator-2.0.0.tgz#bd968567d61635e33c0b80727613c9cb4b096bac"
-  dependencies:
-    d "^0.1.1"
-    es5-ext "^0.10.7"
-    es6-symbol "3"
-
-es6-iterator@^2.0.1, es6-iterator@~2.0.1:
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added google and twitter oauth
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/es6-iterator/-/es6-iterator-2.0.1.tgz#8e319c9f0453bf575d374940a655920e59ca5512"
   dependencies:
@@ -2949,55 +2464,6 @@ external-editor@^2.0.4:
     jschardet "^1.4.2"
     tmp "^0.0.31"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-extend@~3.0.0:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
-
-external-editor@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/external-editor/-/external-editor-2.0.4.tgz#1ed9199da9cbfe2ef2f7a31b2fde8b0d12368972"
-  dependencies:
-    iconv-lite "^0.4.17"
-    jschardet "^1.4.2"
-    tmp "^0.0.31"
-
-<<<<<<< HEAD
-extend@~3.0.0:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
-
-external-editor@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/external-editor/-/external-editor-2.0.4.tgz#1ed9199da9cbfe2ef2f7a31b2fde8b0d12368972"
-  dependencies:
-    iconv-lite "^0.4.17"
-    jschardet "^1.4.2"
-    tmp "^0.0.31"
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-extend@~3.0.0:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
-
-external-editor@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/external-editor/-/external-editor-2.0.4.tgz#1ed9199da9cbfe2ef2f7a31b2fde8b0d12368972"
-  dependencies:
-    iconv-lite "^0.4.17"
-    jschardet "^1.4.2"
-    tmp "^0.0.31"
-
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 extglob@^0.3.1:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/extglob/-/extglob-0.3.2.tgz#2e18ff3d2f49ab2765cec9023f011daa8d8349a1"
@@ -3023,14 +2489,6 @@ fast-levenshtein@~2.0.4:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 fb-watchman@^1.8.0:
   version "1.9.2"
   resolved "https://registry.yarnpkg.com/fb-watchman/-/fb-watchman-1.9.2.tgz#a24cf47827f82d38fb59a69ad70b76e3b6ae7383"
@@ -3043,97 +2501,7 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "^2.0.0"
 
-=======
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
 fbjs@^0.8.9:
-=======
-<<<<<<< HEAD
-fbjs@^0.8.1, fbjs@^0.8.4, fbjs@^0.8.6, fbjs@^0.8.9:
-=======
-fbjs@^0.8.1, fbjs@^0.8.4:
-  version "0.8.8"
-  resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.8.tgz#02f1b6e0ea0d46c24e0b51a2d24df069563a5ad6"
-  dependencies:
-    core-js "^1.0.0"
-    isomorphic-fetch "^2.1.1"
-    loose-envify "^1.0.0"
-    object-assign "^4.1.0"
-    promise "^7.1.1"
-    setimmediate "^1.0.5"
-    ua-parser-js "^0.7.9"
-
-fbjs@^0.8.6, fbjs@^0.8.9:
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-fbjs@^0.8.1, fbjs@^0.8.4, fbjs@^0.8.6, fbjs@^0.8.9:
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-fbjs@^0.8.1, fbjs@^0.8.4, fbjs@^0.8.6, fbjs@^0.8.9:
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-=======
-fbjs@^0.8.1, fbjs@^0.8.4, fbjs@^0.8.6, fbjs@^0.8.9:
->>>>>>> rebased with PR#6
-=======
-<<<<<<< HEAD
-=======
-fbjs@^0.8.1, fbjs@^0.8.4, fbjs@^0.8.6, fbjs@^0.8.9:
-=======
-fbjs@^0.8.1, fbjs@^0.8.4:
-  version "0.8.8"
-  resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.8.tgz#02f1b6e0ea0d46c24e0b51a2d24df069563a5ad6"
-  dependencies:
-    core-js "^1.0.0"
-    isomorphic-fetch "^2.1.1"
-    loose-envify "^1.0.0"
-    object-assign "^4.1.0"
-    promise "^7.1.1"
-    setimmediate "^1.0.5"
-    ua-parser-js "^0.7.9"
-
-fbjs@^0.8.6, fbjs@^0.8.9:
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-=======
-fbjs@^0.8.1, fbjs@^0.8.4, fbjs@^0.8.6, fbjs@^0.8.9:
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-fbjs@^0.8.9:
->>>>>>> added google and twitter oauth
   version "0.8.14"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.14.tgz#d1dbe2be254c35a91e09f31f9cd50a40b2a0ed1c"
   dependencies:
@@ -3467,55 +2835,7 @@ glob2base@^0.0.12:
   dependencies:
     find-index "^0.1.1"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
 glob@7.1.1:
-=======
-glob@7.1.1, glob@^7.0.3, glob@^7.0.5:
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-glob@7.1.1:
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-glob@7.1.1:
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
-=======
-glob@7.1.1:
-=======
-glob@7.1.1, glob@^7.0.3, glob@^7.0.5:
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-glob@7.1.1:
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-glob@7.1.1:
->>>>>>> added google and twitter oauth
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.1.tgz#805211df04faaf1c63a3600306cdf5ade50b2ec8"
   dependencies:
@@ -3545,57 +2865,7 @@ glob@^6.0.1:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@^7.1.2:
-=======
-glob@^7.1.1, glob@^7.1.2:
->>>>>>> added LRUCache and re-configured server
-=======
-glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@^7.1.2:
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@^7.1.2:
-=======
-glob@^7.1.1, glob@^7.1.2:
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@^7.1.2:
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-=======
-glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@^7.1.2:
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@^7.1.2:
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@^7.1.2:
->>>>>>> added google and twitter oauth
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.2.tgz#c19c9df9a028702d678612384a6552404c636d15"
   dependencies:
@@ -3637,63 +2907,7 @@ global@^4.3.0:
     min-document "^2.19.0"
     process "~0.5.1"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
 globals@^9.0.0, globals@^9.17.0, globals@^9.18.0:
-=======
-globals@^9.0.0:
-  version "9.14.0"
-  resolved "https://registry.yarnpkg.com/globals/-/globals-9.14.0.tgz#8859936af0038741263053b39d0e76ca241e4034"
-
-globals@^9.17.0, globals@^9.18.0:
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-globals@^9.0.0, globals@^9.17.0, globals@^9.18.0:
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-globals@^9.0.0, globals@^9.17.0, globals@^9.18.0:
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
-=======
-globals@^9.0.0, globals@^9.17.0, globals@^9.18.0:
-=======
-globals@^9.0.0:
-  version "9.14.0"
-  resolved "https://registry.yarnpkg.com/globals/-/globals-9.14.0.tgz#8859936af0038741263053b39d0e76ca241e4034"
-
-globals@^9.17.0, globals@^9.18.0:
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-globals@^9.0.0, globals@^9.17.0, globals@^9.18.0:
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-globals@^9.0.0, globals@^9.17.0, globals@^9.18.0:
->>>>>>> added google and twitter oauth
   version "9.18.0"
   resolved "https://registry.yarnpkg.com/globals/-/globals-9.18.0.tgz#aa3896b3e69b487f17e31ed2143d69a8e30c2d8a"
 
@@ -3974,123 +3188,17 @@ https-browserify@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-0.0.1.tgz#3f91365cabe60b77ed0ebba24b454e3e09d95a82"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 iconv-lite@0.4.13:
   version "0.4.13"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.13.tgz#1f88aba4ab0b1508e8312acc39345f36e992e2f2"
 
-=======
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-hyphenate-style-name@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/hyphenate-style-name/-/hyphenate-style-name-1.0.2.tgz#31160a36930adaf1fc04c6074f7eb41465d4ec4b"
-
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 iconv-lite@0.4.15:
   version "0.4.15"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.15.tgz#fe265a218ac6a57cfe854927e9d04c19825eddeb"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 iconv-lite@^0.4.17, iconv-lite@~0.4.13:
   version "0.4.18"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.18.tgz#23d8656b16aae6742ac29732ea8f0336a4789cf2"
-=======
-iconv-lite@^0.4.17:
-  version "0.4.18"
-  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.18.tgz#23d8656b16aae6742ac29732ea8f0336a4789cf2"
-
-iconv-lite@~0.4.13:
-  version "0.4.13"
-  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.13.tgz#1f88aba4ab0b1508e8312acc39345f36e992e2f2"
->>>>>>> added LRUCache and re-configured server
-=======
-iconv-lite@^0.4.17, iconv-lite@~0.4.13:
-  version "0.4.18"
-  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.18.tgz#23d8656b16aae6742ac29732ea8f0336a4789cf2"
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-iconv-lite@^0.4.17, iconv-lite@~0.4.13:
-  version "0.4.18"
-  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.18.tgz#23d8656b16aae6742ac29732ea8f0336a4789cf2"
-=======
-iconv-lite@^0.4.17:
-  version "0.4.18"
-  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.18.tgz#23d8656b16aae6742ac29732ea8f0336a4789cf2"
-
-iconv-lite@~0.4.13:
-  version "0.4.13"
-  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.13.tgz#1f88aba4ab0b1508e8312acc39345f36e992e2f2"
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-iconv-lite@^0.4.17, iconv-lite@~0.4.13:
-  version "0.4.18"
-  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.18.tgz#23d8656b16aae6742ac29732ea8f0336a4789cf2"
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
-=======
-iconv-lite@^0.4.17, iconv-lite@~0.4.13:
-  version "0.4.18"
-  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.18.tgz#23d8656b16aae6742ac29732ea8f0336a4789cf2"
-=======
-iconv-lite@^0.4.17:
-  version "0.4.18"
-  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.18.tgz#23d8656b16aae6742ac29732ea8f0336a4789cf2"
-
-iconv-lite@~0.4.13:
-  version "0.4.13"
-  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.13.tgz#1f88aba4ab0b1508e8312acc39345f36e992e2f2"
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-iconv-lite@^0.4.17, iconv-lite@~0.4.13:
-  version "0.4.18"
-  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.18.tgz#23d8656b16aae6742ac29732ea8f0336a4789cf2"
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-iconv-lite@^0.4.17, iconv-lite@~0.4.13:
-  version "0.4.18"
-  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.18.tgz#23d8656b16aae6742ac29732ea8f0336a4789cf2"
->>>>>>> added google and twitter oauth
 
 ieee754@^1.1.4:
   version "1.1.8"
@@ -4201,71 +3309,9 @@ is-bluebird@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/is-bluebird/-/is-bluebird-1.0.2.tgz#096439060f4aa411abee19143a84d6a55346d6e2"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> rebased with PR#6
 is-buffer@^1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.5.tgz#1f3b26ef613b214b88cbca23cc6c01d87961eecc"
-=======
-is-buffer@^1.0.2:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.4.tgz#cfc86ccd5dc5a52fa80489111c6920c457e2d98b"
->>>>>>> added LRUCache and re-configured server
-=======
-is-buffer@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.5.tgz#1f3b26ef613b214b88cbca23cc6c01d87961eecc"
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-is-buffer@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.5.tgz#1f3b26ef613b214b88cbca23cc6c01d87961eecc"
-=======
-is-buffer@^1.0.2:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.4.tgz#cfc86ccd5dc5a52fa80489111c6920c457e2d98b"
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
-is-buffer@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.5.tgz#1f3b26ef613b214b88cbca23cc6c01d87961eecc"
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
-is-buffer@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.5.tgz#1f3b26ef613b214b88cbca23cc6c01d87961eecc"
->>>>>>> added google and twitter oauth
 
 is-builtin-module@^1.0.0:
   version "1.0.0"
@@ -4294,8 +3340,6 @@ is-dotfile@^1.0.0:
 is-empty@^1.0.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/is-empty/-/is-empty-1.2.0.tgz#de9bb5b278738a05a0b09a57e1fb4d4a341a9f6b"
-=======
->>>>>>> rebased with PR#6
 
 is-equal-shallow@^0.1.3:
   version "0.1.3"
@@ -4484,38 +3528,9 @@ istanbul-api@^1.1.1:
     mkdirp "^0.5.1"
     once "^1.4.0"
 
-<<<<<<< HEAD
 istanbul-lib-coverage@^1.0.1, istanbul-lib-coverage@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/istanbul-lib-coverage/-/istanbul-lib-coverage-1.1.1.tgz#73bfb998885299415c93d38a3e9adf784a77a9da"
-=======
-js-string-escape@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/js-string-escape/-/js-string-escape-1.0.1.tgz#e2625badbc0d67c7533e9edc1068c587ae4137ef"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-
-js-tokens@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-2.0.0.tgz#79903f5563ee778cc1162e6dcf1a0027c97f9cb5"
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
 
 istanbul-lib-hook@^1.0.7:
   version "1.0.7"
@@ -4783,33 +3798,6 @@ js-beautify@^1.6.11:
 js-string-escape@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/js-string-escape/-/js-string-escape-1.0.1.tgz#e2625badbc0d67c7533e9edc1068c587ae4137ef"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> rebased with PR#6
-=======
-
-js-tokens@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-2.0.0.tgz#79903f5563ee778cc1162e6dcf1a0027c97f9cb5"
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
-=======
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 
 js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "3.0.2"
@@ -4914,93 +3902,12 @@ jsprim@^1.2.2:
     extsprintf "1.3.0"
     json-schema "0.2.3"
     verror "1.10.0"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> updated package.json and eslintrc
-=======
-=======
->>>>>>> updated package.json and eslintrc
-=======
-=======
-=======
->>>>>>> added google and twitter oauth
 
 junk@^1.0.1:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/junk/-/junk-1.0.3.tgz#87be63488649cbdca6f53ab39bec9ccd2347f592"
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> updated package.json and eslintrc
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-
-junk@^1.0.1:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/junk/-/junk-1.0.3.tgz#87be63488649cbdca6f53ab39bec9ccd2347f592"
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-
-<<<<<<< HEAD
-junk@^1.0.1:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/junk/-/junk-1.0.3.tgz#87be63488649cbdca6f53ab39bec9ccd2347f592"
-
-=======
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
-keycode@^2.1.2:
-=======
-keycode@^2.1.2, keycode@^2.1.8:
->>>>>>> rebased with PR#6
-=======
-
-keycode@^2.1.2, keycode@^2.1.8:
->>>>>>> rebased with PR#6
-=======
 
 keycode@^2.1.2:
->>>>>>> added google and twitter oauth
   version "2.1.9"
   resolved "https://registry.yarnpkg.com/keycode/-/keycode-2.1.9.tgz#964a23c54e4889405b4861a5c9f0480d45141dfa"
 
@@ -5010,74 +3917,12 @@ kind-of@^3.0.2:
   dependencies:
     is-buffer "^1.1.5"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 kind-of@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-4.0.0.tgz#20813df3d712928b207378691a45066fae72dd57"
   dependencies:
     is-buffer "^1.1.5"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 lazy-cache@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/lazy-cache/-/lazy-cache-1.0.4.tgz#a1d78fc3a50474cb80845d3b3b6e1da49a446e8e"
@@ -5191,13 +4036,6 @@ lodash._root@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/lodash._root/-/lodash._root-3.0.1.tgz#fba1c4524c19ee9a5f8136b4609f017cf4ded692"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 lodash.assignin@^4.0.9:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/lodash.assignin/-/lodash.assignin-4.2.0.tgz#ba8df5fb841eb0a3e8044232b0e263a8dc6a28a2"
@@ -5206,49 +4044,6 @@ lodash.bind@^4.1.4:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/lodash.bind/-/lodash.bind-4.2.1.tgz#7ae3017e939622ac31b7d7d7dcb1b34db1690d35"
 
-=======
-=======
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
-lodash.assignwith@^4.0.7:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/lodash.assignwith/-/lodash.assignwith-4.2.0.tgz#127a97f02adc41751a954d24b0de17e100e038eb"
-
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 lodash.chunk@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/lodash.chunk/-/lodash.chunk-4.2.0.tgz#66e5ce1f76ed27b4303d8c6512e8d1216e8106bc"
@@ -5311,29 +4106,10 @@ lodash.merge@^4.4.0, lodash.merge@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.0.tgz#69884ba144ac33fe699737a6086deffadd0f89c5"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> added LRUCache and re-configured server
 lodash.pick@^4.2.1:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.pick/-/lodash.pick-4.4.0.tgz#52f05610fff9ded422611441ed1fc123a03001b3"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 lodash.reduce@^4.4.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.reduce/-/lodash.reduce-4.6.0.tgz#f1ab6b839299ad48f784abbf476596f03b914d3b"
@@ -5342,30 +4118,6 @@ lodash.reject@^4.4.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.reject/-/lodash.reject-4.6.0.tgz#80d6492dc1470864bbf583533b651f42a9f52415"
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 lodash.restparam@^3.0.0:
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/lodash.restparam/-/lodash.restparam-3.6.1.tgz#936a4e309ef330a7645ed4145986c85ae5b20805"
@@ -5567,120 +4319,9 @@ mime-db@~1.30.0:
   version "1.30.0"
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.30.0.tgz#74c643da2dd9d6a45399963465b26d5ca7d71f01"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-mime-types@^2.1.12, mime-types@~2.1.15, mime-types@~2.1.16, mime-types@~2.1.7:
-<<<<<<< HEAD
-  version "2.1.17"
-  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.17.tgz#09d7a393f03e995a79f8af857b70a9e0ab16557a"
-=======
-  version "2.1.16"
-  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.16.tgz#2b858a52e5ecd516db897ac2be87487830698e23"
-=======
-mime-db@~1.29.0:
-  version "1.29.0"
-  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.29.0.tgz#48d26d235589651704ac5916ca06001914266878"
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-mime-types@^2.1.12, mime-types@~2.1.15, mime-types@~2.1.7:
-=======
-=======
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-mime-types@^2.1.12, mime-types@~2.1.15, mime-types@~2.1.16, mime-types@~2.1.7:
->>>>>>> added LRUCache and re-configured server
-  version "2.1.16"
-  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.16.tgz#2b858a52e5ecd516db897ac2be87487830698e23"
-=======
-mime-db@~1.29.0:
-  version "1.29.0"
-  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.29.0.tgz#48d26d235589651704ac5916ca06001914266878"
-
-mime-types@^2.1.12, mime-types@~2.1.15, mime-types@~2.1.7:
-  version "2.1.16"
-  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.16.tgz#2b858a52e5ecd516db897ac2be87487830698e23"
-  dependencies:
-    mime-db "~1.29.0"
-
-mime-types@~2.1.11:
-  version "2.1.13"
-  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.13.tgz#e07aaa9c6c6b9a7ca3012c69003ad25a39e92a88"
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-=======
-mime-types@^2.1.12, mime-types@~2.1.15, mime-types@~2.1.16, mime-types@~2.1.7:
-  version "2.1.16"
-  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.16.tgz#2b858a52e5ecd516db897ac2be87487830698e23"
->>>>>>> rebased with PR#6
-=======
-<<<<<<< HEAD
-=======
-mime-types@^2.1.12, mime-types@~2.1.15, mime-types@~2.1.16, mime-types@~2.1.7:
-  version "2.1.16"
-  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.16.tgz#2b858a52e5ecd516db897ac2be87487830698e23"
-=======
-mime-db@~1.29.0:
-  version "1.29.0"
-  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.29.0.tgz#48d26d235589651704ac5916ca06001914266878"
-
-mime-types@^2.1.12, mime-types@~2.1.15, mime-types@~2.1.7:
-  version "2.1.16"
-  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.16.tgz#2b858a52e5ecd516db897ac2be87487830698e23"
-  dependencies:
-    mime-db "~1.29.0"
-
-mime-types@~2.1.11:
-  version "2.1.13"
-  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.13.tgz#e07aaa9c6c6b9a7ca3012c69003ad25a39e92a88"
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-=======
->>>>>>> added google and twitter oauth
 mime-types@^2.1.12, mime-types@~2.1.15, mime-types@~2.1.16, mime-types@~2.1.7:
   version "2.1.17"
   resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.17.tgz#09d7a393f03e995a79f8af857b70a9e0ab16557a"
-  dependencies:
-    mime-db "~1.30.0"
-
-mime-types@~2.1.11:
-  version "2.1.13"
-  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.13.tgz#e07aaa9c6c6b9a7ca3012c69003ad25a39e92a88"
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-mime-types@^2.1.12, mime-types@~2.1.15, mime-types@~2.1.16, mime-types@~2.1.7:
-  version "2.1.16"
-  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.16.tgz#2b858a52e5ecd516db897ac2be87487830698e23"
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
   dependencies:
     mime-db "~1.30.0"
 
@@ -5716,32 +4357,6 @@ minimalistic-assert@^1.0.0:
 minimalistic-crypto-utils@^1.0.0, minimalistic-crypto-utils@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz#f6c00c1c0b082246e5c4d99dfb8c7c083b2b582a"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 
 "minimatch@2 || 3", minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.3, minimatch@^3.0.4:
   version "3.0.4"
@@ -5755,62 +4370,6 @@ minimatch@^2.0.1:
   dependencies:
     brace-expansion "^1.0.0"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
-
-"minimatch@2 || 3", minimatch@^3.0.0, minimatch@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
-  dependencies:
-    brace-expansion "^1.1.7"
-
-minimatch@^2.0.1:
-  version "2.0.10"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-2.0.10.tgz#8d087c39c6b38c001b97fca7ce6d0e1e80afbac7"
-  dependencies:
-    brace-expansion "^1.0.0"
-
-minimatch@^3.0.2:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.3.tgz#2a4e4090b96b2db06a9d7df01055a62a77c9b774"
-  dependencies:
-    brace-expansion "^1.0.0"
-
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 minimatch@~0.2.11:
   version "0.2.14"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-0.2.14.tgz#c74e780574f63c6f9a090e90efbe6ef53a6a756a"
@@ -5847,100 +4406,11 @@ moment-timezone@^0.5.4:
   version "0.5.13"
   resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.13.tgz#99ce5c7d827262eb0f1f702044177f60745d7b90"
   dependencies:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
     moment ">= 2.9.0"
 
 "moment@>= 2.9.0", moment@^2.11.2, moment@^2.13.0, moment@^2.16.0, moment@^2.17.1:
   version "2.18.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.18.1.tgz#c36193dd3ce1c2eed2adb7c802dbbc77a81b1c0f"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
-    moment ">= 2.6.0"
-
-"moment@>= 2.6.0", moment@^2.13.0:
-  version "2.17.1"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.17.1.tgz#fed9506063f36b10f066c8b59a144d7faebe1d82"
-
-moment@^2.11.2, moment@^2.16.0, moment@^2.17.1:
-  version "2.18.1"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.18.1.tgz#c36193dd3ce1c2eed2adb7c802dbbc77a81b1c0f"
-
-ms@0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.1.tgz#9cd13c03adbff25b65effde7ce864ee952017098"
-
-ms@0.7.2:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.2.tgz#ae25cf2512b3885a1d95d7f037868d8431124765"
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 
 ms@2.0.0:
   version "2.0.0"
@@ -5995,53 +4465,6 @@ negotiator@0.6.1:
 next-tick@1:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
-
-next-tick@~0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-0.2.2.tgz#75da4a927ee5887e39065880065b7336413b310d"
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 
 next@^3.2.1:
   version "3.2.1"
@@ -6193,104 +4616,11 @@ normalize-package-data@^2.3.2:
     semver "2 || 3 || 4 || 5"
     validate-npm-package-license "^3.0.1"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
 normalize-path@^2.0.0, normalize-path@^2.0.1:
-=======
-normalize-path@^2.0.0:
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-=======
-normalize-path@^2.0.0, normalize-path@^2.0.1:
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-<<<<<<< HEAD
-normalize-path@^2.0.0, normalize-path@^2.0.1:
-=======
-normalize-path@^2.0.0:
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-normalize-path@^2.0.0, normalize-path@^2.0.1:
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-normalize-path@^2.0.0, normalize-path@^2.0.1:
->>>>>>> added google and twitter oauth
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-2.1.1.tgz#1ab28b556e198363a8c1a6f7e6fa20137fe6aed9"
   dependencies:
     remove-trailing-separator "^1.0.1"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
-
-normalize-path@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-2.0.1.tgz#47886ac1662760d4261b7d979d241709d3ce3f7a"
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 
 npm-run-path@^2.0.0:
   version "2.0.2"
@@ -6307,69 +4637,16 @@ npmlog@^4.0.2:
     gauge "~2.7.3"
     set-blocking "~2.0.0"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> added nprogress
-=======
->>>>>>> added nprogress
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> added nprogress
->>>>>>> added nprogress
-=======
->>>>>>> added google and twitter oauth
 nprogress@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/nprogress/-/nprogress-0.2.0.tgz#cb8f34c53213d895723fcbab907e9422adbcafb1"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 nth-check@~1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/nth-check/-/nth-check-1.0.1.tgz#9929acdf628fc2c41098deab82ac580cf149aae4"
   dependencies:
     boolbase "~1.0.0"
 
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added nprogress
->>>>>>> added nprogress
-=======
->>>>>>> added nprogress
-=======
->>>>>>> added nprogress
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added nprogress
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added nprogress
-=======
->>>>>>> added google and twitter oauth
 number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
@@ -6382,208 +4659,22 @@ oauth-sign@~0.8.1:
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.8.2.tgz#46a6ab7f0aead8deae9ec0565780b7d4efeb9d43"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
 oauth@0.9.x:
   version "0.9.15"
   resolved "https://registry.yarnpkg.com/oauth/-/oauth-0.9.15.tgz#bd1fefaf686c96b75475aed5196412ff60cfb9c1"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> updated package.json and eslintrc
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-<<<<<<< HEAD
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
-oauth@0.9.x:
-  version "0.9.15"
-  resolved "https://registry.yarnpkg.com/oauth/-/oauth-0.9.15.tgz#bd1fefaf686c96b75475aed5196412ff60cfb9c1"
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> updated package.json and eslintrc
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 object-assign@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-3.0.0.tgz#9bedd5ca0897949bca47e7ff408062d549f587f2"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 object-assign@^4, object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 object-is@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/object-is/-/object-is-1.0.1.tgz#0aa60ec9989a0b3ed795cf4d06f62cf1ad6539b6"
 
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
-object-assign@^4, object-assign@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
-
-object-assign@^4.0.1, object-assign@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.0.tgz#7a3b3d0e98063d43f4c03f2e8ae6cd51a86883a0"
-
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 object-keys@^1.0.10, object-keys@^1.0.8:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.0.11.tgz#c54601778ad560f1142ce0e01bcca8b56d13426d"
@@ -6595,36 +4686,6 @@ object.assign@^4.0.4:
     define-properties "^1.1.2"
     function-bind "^1.1.0"
     object-keys "^1.0.10"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 
 object.defaults@^1.1.0:
   version "1.1.0"
@@ -6634,16 +4695,6 @@ object.defaults@^1.1.0:
     array-slice "^1.0.0"
     for-own "^1.0.0"
     isobject "^3.0.0"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
 
 object.entries@^1.0.4:
   version "1.0.4"
@@ -6653,26 +4704,6 @@ object.entries@^1.0.4:
     es-abstract "^1.6.1"
     function-bind "^1.1.0"
     has "^1.0.1"
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 
 object.omit@^2.0.0:
   version "2.0.1"
@@ -6870,7 +4901,7 @@ passport-google-oauth1@1.x.x:
   dependencies:
     passport-oauth1 "1.x.x"
 
-passport-google-oauth20@1.x.x:
+passport-google-oauth20@1.x.x, passport-google-oauth20@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/passport-google-oauth20/-/passport-google-oauth20-1.0.0.tgz#3b960e8a1d70d1dbe794615c827c68c40392a5d0"
   dependencies:
@@ -7135,46 +5166,6 @@ private@^0.1.6, private@^0.1.7:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.7.tgz#68ce5e8a1ef0a23bb570cc28537b5332aba63ef1"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-private@^0.1.7:
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/private/-/private-0.1.7.tgz#68ce5e8a1ef0a23bb570cc28537b5332aba63ef1"
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 process-nextick-args@~1.0.6:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-1.0.7.tgz#150e20b756590ad3f91093f25a4f2ad8bff30ba3"
@@ -7190,50 +5181,6 @@ process@~0.5.1:
 progress@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.0.tgz#8a1be366bf8fc23db2bd23f10c6fe920b4389d1f"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
-
-promise@^7.0.1:
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/promise/-/promise-7.3.1.tgz#064b72602b18f90f29192b8b1bc418ffd1ebd3bf"
-  dependencies:
-    asap "~2.0.3"
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 
 promise@^7.0.1, promise@^7.1.1:
   version "7.3.1"
@@ -7248,119 +5195,7 @@ prop-types-exact@^1.1.1:
     has "^1.0.1"
     object.assign "^4.0.4"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
 prop-types@15.5.10, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.8:
-=======
-=======
->>>>>>> updated package.json and eslintrc
-=======
-prop-types@15.5.10, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.8:
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-prop-types@15.5.10, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.8:
-=======
-=======
->>>>>>> updated package.json and eslintrc
-<<<<<<< HEAD
->>>>>>> updated package.json and eslintrc
-=======
-=======
-<<<<<<< HEAD
-prop-types@15.5.10, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.8:
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-prop-types-extra@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/prop-types-extra/-/prop-types-extra-1.0.1.tgz#a57bd4810e82d27a3ff4317ecc1b4ad005f79a82"
-  dependencies:
-    warning "^3.0.0"
-
-<<<<<<< HEAD
-prop-types-exact@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/prop-types-exact/-/prop-types-exact-1.1.1.tgz#c2620207e4f77f9762fa1835b0387a464bd08978"
-  dependencies:
-    has "^1.0.1"
-    object.assign "^4.0.4"
-
-=======
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> updated package.json and eslintrc
-prop-types@15.5.10, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8:
->>>>>>> added LRUCache and re-configured server
-=======
-prop-types@15.5.10, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8:
->>>>>>> rebased with PR#6
-=======
-=======
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-prop-types@15.5.10, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8:
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-=======
->>>>>>> added LRUCache and re-configured server
-prop-types@15.5.10, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8:
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
-=======
-prop-types@15.5.10, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8:
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-prop-types@15.5.10, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.8:
->>>>>>> added google and twitter oauth
   version "15.5.10"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.10.tgz#2797dfc3126182e3a95e3dfbb2e893ddd7456154"
   dependencies:
@@ -7382,43 +5217,7 @@ prr@~0.0.0:
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/prr/-/prr-0.0.0.tgz#1a84b85908325501411853d0081ee3fa86e2926a"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-pseudomap@^1.0.1:
-=======
 pseudomap@^1.0.1, pseudomap@^1.0.2:
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-pseudomap@^1.0.1:
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
-=======
-pseudomap@^1.0.1:
->>>>>>> updated package.json and eslintrc
-<<<<<<< HEAD
->>>>>>> updated package.json and eslintrc
-=======
-=======
-pseudomap@^1.0.1, pseudomap@^1.0.2:
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-pseudomap@^1.0.1, pseudomap@^1.0.2:
->>>>>>> added google and twitter oauth
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
 
@@ -7499,124 +5298,11 @@ rc@^1.1.7:
     ini "~1.3.0"
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
-=======
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
-
-react-bootstrap@^0.31.2:
-  version "0.31.2"
-  resolved "https://registry.yarnpkg.com/react-bootstrap/-/react-bootstrap-0.31.2.tgz#f59184676ecedfc4c572d29ffdd6f9126ea8fe6a"
-  dependencies:
-    babel-runtime "^6.11.6"
-    classnames "^2.2.5"
-    dom-helpers "^3.2.0"
-    invariant "^2.2.1"
-    keycode "^2.1.2"
-    prop-types "^15.5.10"
-    prop-types-extra "^1.0.1"
-    react-overlays "^0.7.0"
-    react-prop-types "^0.4.0"
-    uncontrollable "^4.1.0"
-    warning "^3.0.0"
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-<<<<<<< HEAD
->>>>>>> updated package.json and eslintrc
-=======
-=======
-=======
-
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-<<<<<<< HEAD
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-react-bootstrap@^0.31.2:
-  version "0.31.2"
-  resolved "https://registry.yarnpkg.com/react-bootstrap/-/react-bootstrap-0.31.2.tgz#f59184676ecedfc4c572d29ffdd6f9126ea8fe6a"
-  dependencies:
-    babel-runtime "^6.11.6"
-    classnames "^2.2.5"
-    dom-helpers "^3.2.0"
-    invariant "^2.2.1"
-    keycode "^2.1.2"
-    prop-types "^15.5.10"
-    prop-types-extra "^1.0.1"
-    react-overlays "^0.7.0"
-    react-prop-types "^0.4.0"
-    uncontrollable "^4.1.0"
-    warning "^3.0.0"
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-
-<<<<<<< HEAD
 react-addons-test-utils@^15.6.0:
   version "15.6.0"
   resolved "https://registry.yarnpkg.com/react-addons-test-utils/-/react-addons-test-utils-15.6.0.tgz#062d36117fe8d18f3ba5e06eb33383b0b85ea5b9"
 
-=======
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-=======
-=======
->>>>>>> added LRUCache and re-configured server
-
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> updated package.json and eslintrc
-<<<<<<< HEAD
->>>>>>> updated package.json and eslintrc
-<<<<<<< HEAD
-=======
-=======
-
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-=======
-
->>>>>>> rebased with PR#6
-=======
-
->>>>>>> added google and twitter oauth
 react-deep-force-update@^2.0.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-2.1.1.tgz#8ea4263cd6455a050b37445b3f08fd839d86e909"
@@ -7649,183 +5335,12 @@ react-motion@^0.5.1:
     prop-types "^15.5.8"
     raf "^3.1.0"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-react-portal@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/react-portal/-/react-portal-3.1.0.tgz#865c44fb72a1da106c649206936559ce891ee899"
-=======
-react-overlays@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/react-overlays/-/react-overlays-0.7.0.tgz#531898ff566c7e5c7226ead2863b8cf9fbb5a981"
-  dependencies:
-    classnames "^2.2.5"
-    dom-helpers "^3.2.0"
-    prop-types "^15.5.8"
-    react-prop-types "^0.4.0"
-    warning "^3.0.0"
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-react-portal@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/react-portal/-/react-portal-3.1.0.tgz#865c44fb72a1da106c649206936559ce891ee899"
-=======
-react-overlays@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/react-overlays/-/react-overlays-0.7.0.tgz#531898ff566c7e5c7226ead2863b8cf9fbb5a981"
-  dependencies:
-    classnames "^2.2.5"
-    dom-helpers "^3.2.0"
-    prop-types "^15.5.8"
-    react-prop-types "^0.4.0"
-    warning "^3.0.0"
-
-<<<<<<< HEAD
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-react-portal@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/react-portal/-/react-portal-3.1.0.tgz#865c44fb72a1da106c649206936559ce891ee899"
-=======
-react-overlays@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/react-overlays/-/react-overlays-0.7.0.tgz#531898ff566c7e5c7226ead2863b8cf9fbb5a981"
-  dependencies:
-    classnames "^2.2.5"
-    dom-helpers "^3.2.0"
-    prop-types "^15.5.8"
-    react-prop-types "^0.4.0"
-    warning "^3.0.0"
-
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 react-portal@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/react-portal/-/react-portal-3.1.0.tgz#865c44fb72a1da106c649206936559ce891ee899"
   dependencies:
     prop-types "^15.5.8"
 
-<<<<<<< HEAD
-react-prop-types@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/react-prop-types/-/react-prop-types-0.4.0.tgz#f99b0bfb4006929c9af2051e7c1414a5c75b93d0"
->>>>>>> added LRUCache and re-configured server
-  dependencies:
-    prop-types "^15.5.8"
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> updated package.json and eslintrc
-<<<<<<< HEAD
-react-prop-types@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/react-prop-types/-/react-prop-types-0.4.0.tgz#f99b0bfb4006929c9af2051e7c1414a5c75b93d0"
->>>>>>> added LRUCache and re-configured server
-  dependencies:
-    prop-types "^15.5.8"
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-react-prop-types@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/react-prop-types/-/react-prop-types-0.4.0.tgz#f99b0bfb4006929c9af2051e7c1414a5c75b93d0"
->>>>>>> added LRUCache and re-configured server
-  dependencies:
-    prop-types "^15.5.8"
-
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
-react-prop-types@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/react-prop-types/-/react-prop-types-0.4.0.tgz#f99b0bfb4006929c9af2051e7c1414a5c75b93d0"
->>>>>>> added LRUCache and re-configured server
-  dependencies:
-    prop-types "^15.5.8"
-
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 react-proxy@^3.0.0-alpha.0:
   version "3.0.0-alpha.1"
   resolved "https://registry.yarnpkg.com/react-proxy/-/react-proxy-3.0.0-alpha.1.tgz#4400426bcfa80caa6724c7755695315209fa4b07"
@@ -7843,10 +5358,6 @@ react-redux@^5.0.6:
     loose-envify "^1.1.0"
     prop-types "^15.5.10"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 react-test-renderer@^15.6.1:
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-15.6.1.tgz#026f4a5bb5552661fd2cc4bbcd0d4bc8a35ebf7e"
@@ -7854,41 +5365,6 @@ react-test-renderer@^15.6.1:
     fbjs "^0.8.9"
     object-assign "^4.1.0"
 
-=======
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-react-tap-event-plugin@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/react-tap-event-plugin/-/react-tap-event-plugin-2.0.1.tgz#316beb3bc6556e29ec869a7293e89c826a9074d2"
-  dependencies:
-    fbjs "^0.8.6"
-
-react-transition-group@^1.1.2:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-1.2.0.tgz#b51fc921b0c3835a7ef7c571c79fc82c73e9204f"
-  dependencies:
-    chain-function "^1.0.0"
-    dom-helpers "^3.2.0"
-    loose-envify "^1.3.1"
-    prop-types "^15.5.6"
-    warning "^3.0.0"
-
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 react@^15.6.1:
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/react/-/react-15.6.1.tgz#baa8434ec6780bde997cdc380b79cd33b96393df"
@@ -7938,56 +5414,7 @@ read-pkg@^2.0.0:
     isarray "0.0.1"
     string_decoder "~0.10.x"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
 readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.5, readable-stream@^2.0.6, readable-stream@^2.1.4, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.2.6:
-=======
-readable-stream@^2.0.1, readable-stream@^2.0.5, readable-stream@^2.0.6, readable-stream@^2.1.4, readable-stream@^2.2.2, readable-stream@^2.2.6:
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.5, readable-stream@^2.0.6, readable-stream@^2.1.4, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.2.6:
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.5, readable-stream@^2.0.6, readable-stream@^2.1.4, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.2.6:
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-=======
-readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.5, readable-stream@^2.0.6, readable-stream@^2.1.4, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.2.6:
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.5, readable-stream@^2.0.6, readable-stream@^2.1.4, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.2.6:
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.5, readable-stream@^2.0.6, readable-stream@^2.1.4, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.2.6:
->>>>>>> added google and twitter oauth
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.3.tgz#368f2512d79f9d46fdfc71349ae7878bbc1eb95c"
   dependencies:
@@ -7999,60 +5426,6 @@ readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.5, readable
     string_decoder "~1.0.3"
     util-deprecate "~1.0.1"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-readable-stream@^2.0.2, readable-stream@^2.1.5:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.2.2.tgz#a9e6fec3c7dda85f8bb1b3ba7028604556fc825e"
-  dependencies:
-    buffer-shims "^1.0.0"
-    core-util-is "~1.0.0"
-    inherits "~2.0.1"
-    isarray "~1.0.0"
-    process-nextick-args "~1.0.6"
-    string_decoder "~0.10.x"
-    util-deprecate "~1.0.1"
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 readable-stream@~1.1.9:
   version "1.1.14"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-1.1.14.tgz#7cf4c54ef648e3813084c636dd2079e166c081d9"
@@ -8062,33 +5435,6 @@ readable-stream@~1.1.9:
     isarray "0.0.1"
     string_decoder "~0.10.x"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 readdirp@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-2.1.0.tgz#4ed0ad060df3073300c48440373f72d1cc642d78"
@@ -8104,43 +5450,6 @@ rechoir@^0.6.2:
   dependencies:
     resolve "^1.1.6"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> rebased with PR#6
-recompose@0.24.0:
-  version "0.24.0"
-  resolved "https://registry.yarnpkg.com/recompose/-/recompose-0.24.0.tgz#262e93f974439eb17e7779824d88cce90492a5dd"
-  dependencies:
-    change-emitter "^0.1.2"
-    fbjs "^0.8.1"
-    hoist-non-react-statics "^1.0.0"
-    symbol-observable "^1.0.4"
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-recompose@0.24.0:
-  version "0.24.0"
-  resolved "https://registry.yarnpkg.com/recompose/-/recompose-0.24.0.tgz#262e93f974439eb17e7779824d88cce90492a5dd"
-  dependencies:
-    change-emitter "^0.1.2"
-    fbjs "^0.8.1"
-    hoist-non-react-statics "^1.0.0"
-    symbol-observable "^1.0.4"
-
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 recursive-copy@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/recursive-copy/-/recursive-copy-2.0.6.tgz#d590f9eb5f165b96a1b80bc8f9cbcb5c6f9c89e9"
@@ -8169,48 +5478,6 @@ redefine@^0.2.0:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/redefine/-/redefine-0.2.1.tgz#e89ee7a6f24d19fff62590569332dc60380a89a3"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-=======
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 redis-commands@^1.2.0:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/redis-commands/-/redis-commands-1.3.1.tgz#81d826f45fa9c8b2011f4cd7a0fe597d241d442b"
@@ -8227,95 +5494,10 @@ redis@^2.1.0, redis@^2.8.0:
     redis-commands "^1.2.0"
     redis-parser "^2.6.0"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
 redux-thunk@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/redux-thunk/-/redux-thunk-2.2.0.tgz#e615a16e16b47a19a515766133d1e3e99b7852e5"
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> updated package.json and eslintrc
-=======
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> updated package.json and eslintrc
-<<<<<<< HEAD
->>>>>>> updated package.json and eslintrc
-=======
-=======
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
-redux-thunk@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/redux-thunk/-/redux-thunk-2.2.0.tgz#e615a16e16b47a19a515766133d1e3e99b7852e5"
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 redux@^3.7.2:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/redux/-/redux-3.7.2.tgz#06b73123215901d25d065be342eb026bc1c8537b"
@@ -8458,52 +5640,6 @@ resolve@^1.0.0, resolve@^1.1.6, resolve@^1.1.7, resolve@^1.3.2, resolve@^1.3.3:
   dependencies:
     path-parse "^1.0.5"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
-resolve@^1.3.2, resolve@^1.3.3:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.4.0.tgz#a75be01c53da25d934a98ebd0e4c4a7312f92a86"
-  dependencies:
-    path-parse "^1.0.5"
-
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 restore-cursor@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/restore-cursor/-/restore-cursor-2.0.0.tgz#9f7ee287f82fd326d4fd162923d62129eee0dfaf"
@@ -8524,118 +5660,9 @@ right-align@^0.1.1:
   dependencies:
     align-text "^0.1.1"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 rimraf@2, rimraf@^2.2.8, rimraf@^2.5.1, rimraf@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.1.tgz#c2338ec643df7a1b7fe5c54fa86f57428a55f33d"
-=======
-rimraf@2, rimraf@^2.5.1, rimraf@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.1.tgz#c2338ec643df7a1b7fe5c54fa86f57428a55f33d"
-  dependencies:
-    glob "^7.0.5"
-
-<<<<<<< HEAD
-rimraf@^2.2.8:
-  version "2.5.4"
-  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.5.4.tgz#96800093cbf1a0c86bd95b4625467535c29dfa04"
->>>>>>> added LRUCache and re-configured server
-=======
-rimraf@2, rimraf@^2.2.8, rimraf@^2.5.1, rimraf@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.1.tgz#c2338ec643df7a1b7fe5c54fa86f57428a55f33d"
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-rimraf@2, rimraf@^2.2.8, rimraf@^2.5.1, rimraf@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.1.tgz#c2338ec643df7a1b7fe5c54fa86f57428a55f33d"
-=======
-rimraf@2, rimraf@^2.5.1, rimraf@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.1.tgz#c2338ec643df7a1b7fe5c54fa86f57428a55f33d"
-  dependencies:
-    glob "^7.0.5"
-
-rimraf@^2.2.8:
-  version "2.5.4"
-  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.5.4.tgz#96800093cbf1a0c86bd95b4625467535c29dfa04"
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-rimraf@2, rimraf@^2.2.8, rimraf@^2.5.1, rimraf@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.1.tgz#c2338ec643df7a1b7fe5c54fa86f57428a55f33d"
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
-=======
-<<<<<<< HEAD
-=======
-rimraf@2, rimraf@^2.2.8, rimraf@^2.5.1, rimraf@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.1.tgz#c2338ec643df7a1b7fe5c54fa86f57428a55f33d"
-=======
-rimraf@2, rimraf@^2.5.1, rimraf@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.1.tgz#c2338ec643df7a1b7fe5c54fa86f57428a55f33d"
-  dependencies:
-    glob "^7.0.5"
-
-rimraf@^2.2.8:
-  version "2.5.4"
-  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.5.4.tgz#96800093cbf1a0c86bd95b4625467535c29dfa04"
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-=======
-rimraf@2, rimraf@^2.2.8, rimraf@^2.5.1, rimraf@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.1.tgz#c2338ec643df7a1b7fe5c54fa86f57428a55f33d"
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-rimraf@2, rimraf@^2.2.8, rimraf@^2.5.1, rimraf@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.1.tgz#c2338ec643df7a1b7fe5c54fa86f57428a55f33d"
->>>>>>> added google and twitter oauth
   dependencies:
     glob "^7.0.5"
 
@@ -8663,80 +5690,6 @@ rx-lite-aggregates@^4.0.8:
   resolved "https://registry.yarnpkg.com/rx-lite-aggregates/-/rx-lite-aggregates-4.0.8.tgz#753b87a89a11c95467c4ac1626c4efc4e05c67be"
   dependencies:
     rx-lite "*"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-
-rx-lite@*, rx-lite@^4.0.8:
-  version "4.0.8"
-  resolved "https://registry.yarnpkg.com/rx-lite/-/rx-lite-4.0.8.tgz#0b1e11af8bc44836f04a6407e92da42467b79444"
-
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-
-rx-lite@*, rx-lite@^4.0.8:
-  version "4.0.8"
-  resolved "https://registry.yarnpkg.com/rx-lite/-/rx-lite-4.0.8.tgz#0b1e11af8bc44836f04a6407e92da42467b79444"
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> added google and twitter oauth
 
 rx-lite@*, rx-lite@^4.0.8:
   version "4.0.8"
@@ -8776,127 +5729,14 @@ semantic-ui-react@^0.72.0:
     lodash "^4.17.4"
     prop-types "^15.5.10"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 "semver@2 || 3 || 4 || 5", semver@^5.0.1, semver@^5.1.0, semver@^5.3.0:
   version "5.4.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
-=======
-"semver@2 || 3 || 4 || 5", semver@5.3.0, semver@^5.0.1:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
->>>>>>> added LRUCache and re-configured server
-=======
-"semver@2 || 3 || 4 || 5", semver@^5.0.1, semver@^5.1.0, semver@^5.3.0:
-  version "5.4.1"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
->>>>>>> rebased with PR#6
-=======
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-"semver@2 || 3 || 4 || 5", semver@^5.0.1, semver@^5.1.0, semver@^5.3.0:
-  version "5.4.1"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
-=======
-"semver@2 || 3 || 4 || 5", semver@5.3.0, semver@^5.0.1:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-"semver@2 || 3 || 4 || 5", semver@^5.0.1, semver@^5.1.0, semver@^5.3.0:
-  version "5.4.1"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
-=======
-<<<<<<< HEAD
-=======
-"semver@2 || 3 || 4 || 5", semver@^5.0.1, semver@^5.1.0, semver@^5.3.0:
-  version "5.4.1"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
-=======
-"semver@2 || 3 || 4 || 5", semver@5.3.0, semver@^5.0.1:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
-=======
-"semver@2 || 3 || 4 || 5", semver@^5.0.1, semver@^5.1.0, semver@^5.3.0:
-  version "5.4.1"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
-"semver@2 || 3 || 4 || 5", semver@^5.0.1, semver@^5.1.0, semver@^5.3.0:
-  version "5.4.1"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
->>>>>>> added google and twitter oauth
 
 semver@4.3.2:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/semver/-/semver-4.3.2.tgz#c7a07158a80bedd052355b770d82d6640f803be7"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 semver@5.3.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
@@ -8904,46 +5744,6 @@ semver@5.3.0:
 semver@^4.1.0:
   version "4.3.6"
   resolved "https://registry.yarnpkg.com/semver/-/semver-4.3.6.tgz#300bc6e0e86374f7ba61068b5b1ecd57fc6532da"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
-semver@^5.3.0:
-  version "5.4.1"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 
 send@0.15.4, send@^0.15.3:
   version "0.15.4"
@@ -9474,62 +6274,10 @@ tmp@^0.0.31:
   dependencies:
     os-tmpdir "~1.0.1"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 tmpl@1.0.x:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-timers-ext@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/timers-ext/-/timers-ext-0.1.2.tgz#61cc47a76c1abd3195f14527f978d58ae94c5204"
-  dependencies:
-    es5-ext "~0.10.14"
-    next-tick "1"
 
-tmp@^0.0.31:
-  version "0.0.31"
-  resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.0.31.tgz#8f38ab9438e17315e5dbd8b3657e8bfb277ae4a7"
-  dependencies:
-    os-tmpdir "~1.0.1"
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-
-=======
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
-=======
-
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 to-arraybuffer@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/to-arraybuffer/-/to-arraybuffer-1.0.1.tgz#7d229b1fcc637e466ca081180836a7aabff83f43"
@@ -9647,97 +6395,10 @@ uid-safe@~2.1.4:
   dependencies:
     random-bytes "~1.0.0"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 uid2@0.0.x:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/uid2/-/uid2-0.0.3.tgz#483126e11774df2f71b8b639dcd799c376162b82"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> updated package.json and eslintrc
-=======
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 umzug@^1.12.0:
   version "1.12.0"
   resolved "https://registry.yarnpkg.com/umzug/-/umzug-1.12.0.tgz#a79c91f2862eee3130c6c347f2b90ad68a66e8b8"
@@ -9752,74 +6413,6 @@ unc-path-regex@^0.1.0:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/unc-path-regex/-/unc-path-regex-0.1.2.tgz#e73dd3d7b0d7c5ed86fbac6b0ae7d8c6a69d50fa"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> updated package.json and eslintrc
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> updated package.json and eslintrc
-unfetch@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/unfetch/-/unfetch-3.0.0.tgz#8d1e0513a4ecd0e5ff2d41a6ba77771aae8b6482"
-=======
-uncontrollable@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/uncontrollable/-/uncontrollable-4.1.0.tgz#e0358291252e1865222d90939b19f2f49f81c1a9"
-  dependencies:
-    invariant "^2.1.0"
->>>>>>> added LRUCache and re-configured server
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> updated package.json and eslintrc
->>>>>>> updated package.json and eslintrc
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 unfetch@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/unfetch/-/unfetch-3.0.0.tgz#8d1e0513a4ecd0e5ff2d41a6ba77771aae8b6482"
@@ -9888,82 +6481,10 @@ validator@^8.0.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/validator/-/validator-8.1.0.tgz#89cf6b512ff71eba886afd8d10d47f8dc800eac0"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 vary@^1, vary@~1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.1.tgz#67535ebb694c1d52257457984665323f587e8d37"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> added LRUCache and re-configured server
->>>>>>> added LRUCache and re-configured server
-=======
-vary@^1:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.0.tgz#e1e5affbbd16ae768dd2674394b9ad3022653140"
-
-vary@~1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.1.tgz#67535ebb694c1d52257457984665323f587e8d37"
-
->>>>>>> added LRUCache and re-configured server
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
-<<<<<<< HEAD
->>>>>>> added LRUCache and re-configured server
-=======
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added LRUCache and re-configured server
-=======
->>>>>>> rebased with PR#6
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 verror@1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/verror/-/verror-1.10.0.tgz#3a105ca17053af55d6e270c1f8288682e18da400"
@@ -10012,10 +6533,6 @@ walk@^2.3.9:
   dependencies:
     foreachasync "^3.0.0"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 walker@~1.0.5:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/walker/-/walker-1.0.7.tgz#2f7f9b8fd10d677262b18a884e28d19618e028fb"
@@ -10026,31 +6543,6 @@ watch@~0.10.0:
   version "0.10.0"
   resolved "https://registry.yarnpkg.com/watch/-/watch-0.10.0.tgz#77798b2da0f9910d595f1ace5b0c2258521f21dc"
 
-=======
-<<<<<<< HEAD
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
-=======
->>>>>>> rebased with PR#6
-warning@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/warning/-/warning-3.0.0.tgz#32e5377cb572de4ab04753bdf8821c01ed605b7c"
-  dependencies:
-    loose-envify "^1.0.0"
-
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-<<<<<<< HEAD
->>>>>>> rebased with PR#6
-=======
->>>>>>> rebased with PR#6
-=======
->>>>>>> added google and twitter oauth
 watchpack@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.4.0.tgz#4a1472bcbb952bd0a9bb4036801f954dfb39faac"

@@ -1,35 +1,34 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const config = require('config');
+const app = require('express')();
 const next = require('next');
+const config = require('config');
+
 const middleware = require('./middleware');
 const routes = require('./routes');
 
 const dev = process.env.NODE_ENV !== 'production';
-const app = next({ dev });
-const handle = app.getRequestHandler();
-
+const nextApp = next({ dev });
+const nextHandler = nextApp.getRequestHandler();
 const port = process.env.PORT || 3000;
-const db = require('../models');
 
-app
+nextApp
   .prepare()
   .then(() => {
-    const server = express();
+    app.use(middleware.bodyParser.json());
+    app.use(middleware.bodyParser.urlencoded({ extended: true }));
 
-    server.use(middleware.auth.session);
-    server.use(middleware.passport.initialize());
-    server.use(middleware.passport.session());
+    app.use(middleware.auth.session);
+    app.use(middleware.passport.initialize());
+    app.use(middleware.passport.session());
 
     // pages endpoint
-    server.get('/', (req, res) => app.render(req, res, '/', req.query));
-    server.get('/signin', (req, res) => app.render(req, res, '/signin', req.query));
-    server.get('/signout', middleware.auth.signout, (req, res) => app.render(req, res, '/'));
+    app.get('/', (req, res) => nextApp.render(req, res, '/', req.query));
+    app.get('/signin', (req, res) => nextApp.render(req, res, '/signin', req.query));
+    app.get('/signout', middleware.auth.signout, (req, res) => nextApp.render(req, res, '/'));
 
     // data endpoint
-    server.use('/auth', routes.auth);
-    server.get('*', handle);
+    app.use('/auth', routes.auth);
+    app.get('*', nextHandler);
 
-    server.listen(port, () => console.log(`listening on port ${port}`));
+    app.listen(port, () => console.log(`listening on port ${port}`));
   })
   .catch(err => console.log(err));

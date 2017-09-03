@@ -11,9 +11,7 @@ router.get('/facebook', middleware.passport.authenticate('facebook', {
 
 router.get('/facebook/callback', middleware.passport.authenticate('facebook', {
   failureRedirect: '/signin'
-}), (req, res) => {
-  res.redirect('/');
-});
+}), (req, res) => res.redirect('/'));
 
 router.get('/google', middleware.passport.authenticate('google', {
   scope: ['profile', 'email']

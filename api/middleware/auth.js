@@ -9,7 +9,9 @@ module.exports.session = session({
   store: new RedisStore({ client }),
   secret: 'no-line',
   resave: false,
-  saveUninitialized: false
+  rolling: true,
+  saveUninitialized: false,
+  cookie: { maxAge: 60 * 3600 * 1000 }
 });
 
 module.exports.verify = (req, res, next) => {
