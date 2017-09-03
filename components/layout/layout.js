@@ -16,17 +16,7 @@ class Layout extends React.Component {
       loadingContent: false
     };
 
-    this.handleLoading = this.handleLoading.bind(this);
-    this.handleLoadingComplete = this.handleLoadingComplete.bind(this);
     this.toggleSidebar = this.toggleSidebar.bind(this);
-  }
-
-  handleLoading() {
-    this.setState({ loadingContent: true });
-  }
-
-  handleLoadingComplete() {
-    this.setState({ loadingContent: false });
   }
 
   toggleSidebar() {

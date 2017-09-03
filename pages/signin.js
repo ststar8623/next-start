@@ -23,10 +23,10 @@ class Signin extends React.Component {
               <List.Content><small>Connect with your favorite social networks</small></List.Content>
             </List.Item>
             <List.List>
-              <List horizontal relexed>
+              <List horizontal>
                 {loginBtns.map((btn, index) => 
-                  <List.Item>
-                    <Button color={btn.color} key={index} fluid>
+                  <List.Item key={index}>
+                    <Button color={btn.color} href={`/auth/${btn.name.toLowerCase()}`} fluid>
                       <Icon name={`${btn.icon}`} />{` ${btn.name}`}
                     </Button>
                   </List.Item>

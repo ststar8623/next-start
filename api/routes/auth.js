@@ -15,4 +15,12 @@ router.get('/facebook/callback', middleware.passport.authenticate('facebook', {
   res.redirect('/');
 });
 
+router.get('/google', middleware.passport.authenticate('google', {
+  scope: ['profile', 'email']
+}));
+
+router.get('/google/callback', middleware.passport.authenticate('google', {
+  failureRedirect: '/signin'
+}), (req, res) => res.redirect('/'));
+
 module.exports = router;

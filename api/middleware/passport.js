@@ -1,5 +1,6 @@
 const passport = require('passport');
 const FacebookStrategy = require('passport-facebook').Strategy;
+const GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 const { user } = require('../../models');
 const config = require('config')['passport'];
 const colors = require('colors');
@@ -9,7 +10,6 @@ passport.serializeUser((profile, done) => {
 });
 
 passport.deserializeUser((id, done) => {
-  // find user by id
   user.findById(id)
     .then(result => done(null, result.dataValues))
     .catch(err => {
@@ -22,12 +22,12 @@ passport.use('facebook', new FacebookStrategy({
   clientID: config.facebook.clientID,
   clientSecret: config.facebook.clientSecret,
   callbackURL: config.facebook.callbackURL,
-  profileFields: ['id', 'name', 'email', 'picture']
+  profileFields: ['id', 'name', 'email', 'photos']
 }, (accessToken, refreshToken, profile, done) => {
   // find or create user
   console.log('facebook oauth profile: '.blue, profile);
-  console.log('email: ', profile.emails[0].value);
-  console.log('photo: ', profile.photos[0].value);
+  // console.log('email: '.blue, profile.emails[0].value);
+  // console.log('photo: '.blue, profile.photos[0].value);
 
   user
     .findOrCreate({
@@ -35,13 +35,13 @@ passport.use('facebook', new FacebookStrategy({
       defaults: {
         firstName: profile.name.givenName,
         lastName: profile.name.familyName,
-        email: profile.emails[0].value,
+        email: 'enmai1988@gmail.com',
         facebook_id: profile.id,
         facebook_profile_image: profile.photos[0].value
       }
     })
     .spread(async (result, created) => {
-      console.log();
+      console.log('spread: '.blue, result);
       if (!created && !result.dataValues.facebook_id) {
         await result.update({ facebook_id: profile.id });
       }
@@ -51,6 +51,14 @@ passport.use('facebook', new FacebookStrategy({
       console.log('facebook oauth error: '.red, err);
       done(null, false);
     });
+}));
+
+passport.use('google', new GoogleStrategy({
+  clientID: config.google.clientID,
+  clientSecret: config.google.clientSecret,
+  callbackURL: config.google.callbackURL
+}, (accessToken, refreshToken, profile, done) => {
+
 }));
 
 module.exports = passport;
