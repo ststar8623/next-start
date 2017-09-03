@@ -10,6 +10,7 @@ tags.lock
 Session.vim
 tags.temp
 yarn-error.log
+dump.rdb
 
 # build file
 .next

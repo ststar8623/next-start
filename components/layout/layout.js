@@ -4,6 +4,10 @@ import Router from 'next/router';
 import NProgress from 'nprogress';
 import { Sidebar, Segment, Menu, Header } from 'semantic-ui-react';
 
+Router.onRouteChangeStart = () => NProgress.start();
+Router.onRouteChangeComplete = () => NProgress.done();
+Router.onRouteChangeError = () => NProgress.done();
+
 class Layout extends React.Component {
   constructor(props) {
     super(props);
@@ -12,26 +16,7 @@ class Layout extends React.Component {
       loadingContent: false
     };
 
-    this.handleLoading = this.handleLoading.bind(this);
-    this.handleLoadingComplete = this.handleLoadingComplete.bind(this);
     this.toggleSidebar = this.toggleSidebar.bind(this);
-  }
-
-  componentDidMount() {
-    Router.onRouteChangeStart = url => {
-      console.log('loading url: ', url);
-      NProgress.start();
-    };
-    Router.onRouteChangeComplete = () => NProgress.done();
-    Router.onRouteChangeError = () => NProgress.done();
-  }
-
-  handleLoading() {
-    this.setState({ loadingContent: true });
-  }
-
-  handleLoadingComplete() {
-    this.setState({ loadingContent: false });
   }
 
   toggleSidebar() {
@@ -40,9 +25,9 @@ class Layout extends React.Component {
 
   render() {
     let isLoggedIn = false; // temporary, should login status from server or props
-    let authMenu = 'Signin';
+    let authMenu = 'Sign in';
     if (isLoggedIn) {
-      authMenu = 'Signout';
+      authMenu = 'Sign out';
     }
 
     const menus = [
@@ -50,10 +35,9 @@ class Layout extends React.Component {
       {href: '/history', name: 'History'},
       {href: '/settings', name: 'Settings'},
       {href: '/about', name: 'About'},
-      {href: `/${authMenu.toLowerCase()}`, name: authMenu}
+      {href: `/${authMenu.split(' ').join('').toLowerCase()}`, name: authMenu}
     ];
 
-    console.log('children: ', this.props.children);
     return (
       <div id="main">
         <Nav toggleSidebar={this.toggleSidebar}/>

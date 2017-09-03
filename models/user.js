@@ -21,7 +21,7 @@ module.exports = (db, DataTypes) => {
     email: {
       type: DataTypes.STRING,
       unique: true,
-      allowNull: false,
+      // allowNull: false,
       isEmail: true
     },
     facebook_profile_image: DataTypes.TEXT,
