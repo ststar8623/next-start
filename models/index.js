@@ -18,7 +18,9 @@ fs
   })
   .forEach(function(file) {
     var model = sequelize['import'](path.join(__dirname, file));
-    db[model.name] = model;
+    var modelName =
+      model.name.substr(0, 1).toUpperCase() + model.name.substr(1);
+    db[modelName] = model;
   });
 
 Object.keys(db).forEach(function(modelName) {
@@ -32,14 +34,14 @@ sequelize.sync({ force: true });
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
-db.menu.belongsTo(db.store);
-db.sold.belongsTo(db.menu);
-db.sold.belongsTo(db.user);
-db.sold.belongsToMany(db.topping, { through: 'sold_toppings' });
-db.topping.belongsToMany(db.sold, { through: 'sold_toppings' });
-db.menu.belongsToMany(db.image, { through: 'menu_images' });
-db.image.belongsToMany(db.menu, { through: 'menu_images' });
-db.topping.belongsToMany(db.image, { through: 'topping_images' });
-db.image.belongsToMany(db.topping, { through: 'topping_images' });
+db.Menu.belongsTo(db.Store);
+db.Sold.belongsTo(db.Menu);
+db.Sold.belongsTo(db.User);
+db.Sold.belongsToMany(db.Topping, { through: 'sold_toppings' });
+db.Topping.belongsToMany(db.Sold, { through: 'sold_toppings' });
+db.Menu.belongsToMany(db.Image, { through: 'menu_images' });
+db.Image.belongsToMany(db.Menu, { through: 'menu_images' });
+db.Topping.belongsToMany(db.Image, { through: 'topping_images' });
+db.Image.belongsToMany(db.Topping, { through: 'topping_images' });
 
 module.exports = db;

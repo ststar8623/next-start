@@ -30,3 +30,9 @@ class Index extends React.Component {
 }
 
 export default Index;
+
+// export default () => (
+//   <div>
+//     <h3>Application Content</h3>
+//   </div>
+// );
