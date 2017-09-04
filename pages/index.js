@@ -1,8 +1,5 @@
-import { Provider } from 'react-redux';
-import { initStore } from '../reducers/index';
-import reducer from '../reducers/index';
-import Layout from '../components/layout/layout';
-
+import Layout from '../containers/layout/layout';
+import withRedux from 'next-redux-wrapper';
 
 class Index extends React.Component {
   // static async getInitialProps({ req }) {
@@ -16,24 +13,15 @@ class Index extends React.Component {
 
   constructor(props) {
     super(props);
-    // this.store = initStore(reducer, props.initialState, props.isServer);
   }
 
   render() {
     return (
-      // <Provider store={this.store}>
       <Layout>
         <h3>Application Content</h3>
       </Layout>
-      // </Provider>
     );
   }
 }
-
 export default Index;
-
-// export default () => (
-//   <div>
-//     <h3>Application Content</h3>
-//   </div>
-// );
+// export default withRedux()(Index);
