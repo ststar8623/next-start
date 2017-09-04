@@ -8,12 +8,26 @@
     "port": 5432,
     "pool": {}
   },
-  
+
   "passport": {
-    "facebook": {},
-    "google": {},
-    "twitter": {}
+    "facebook": {
+      "clientID": "FILLE_ME_IN",
+      "clientSecret": "FILL_ME_IN",
+      "callbackURL": "FILL-ME-IN"
+    },
+    "google": {
+      "clientID": "FILLE_ME_IN",
+      "clientSecret": "FILL_ME_IN",
+      "callbackURL": "FILL-ME-IN"
+    },
+    "twitter": {
+      "clientID": "FILLE_ME_IN",
+      "clientSecret": "FILL_ME_IN",
+      "callbackURL": "FILL-ME-IN"
+    }
   },
 
-  "redis": {}
+  "redis": {
+    "host": "redis"
+  }
 }
