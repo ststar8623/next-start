@@ -14,7 +14,7 @@ passport.deserializeUser((id, done) => {
     .then(result => done(null, result.dataValues))
     .catch(err => {
       console.log('deserializeUser error: '.red, err);
-      done(null, false);
+      done(err, false);
     });
 });
 
@@ -36,7 +36,6 @@ passport.use(new FacebookStrategy({
     }
   })
     .then(async user => {
-      console.log('facebook oauth before if statements: '.green, user);      
       if (user && !user.dataValues.facebook_id) {
         await user.update({ facebook_id });
       } else if (!user) {
@@ -48,12 +47,10 @@ passport.use(new FacebookStrategy({
           facebook_profile_image: profile.photos[0].value,
         });
       }
-      console.log('facebook oauth after if statements: '.blue, user);
       done(null, user.dataValues);
     })
     .catch(err => {
-      console.log('facebook oauth err: '.red, err);
-      done(null, false);
+      done(err, false);
     });
 }));
 
@@ -74,9 +71,7 @@ passport.use(new GoogleStrategy({
     }
   })
     .then(async user => {
-      console.log('google oauth before if statements: '.green, user);      
       if (user && !user.dataValues.google_id) {
-        console.log('updating user with google_id'.green);
         await user.update({ google_id });
       } else if (!user) {
         user = await User.create({
@@ -87,12 +82,11 @@ passport.use(new GoogleStrategy({
           google_profile_image: profile.photos[0].value,
         });
       }
-      console.log('google oauth after if statements: '.blue, user);
       done(null, user.dataValues);
     })
     .catch(err => {
       console.log('google oauth err: '.red, err);
-      done(null, false);
+      done(err, false);
     });
 }));
 
