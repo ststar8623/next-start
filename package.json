@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "dependencies": {
     "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-assets": "^0.2.0",
     "babel-preset-latest": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.26.0",
@@ -19,10 +20,9 @@
     "lodash": "^4.17.4",
     "next": "^3.2.1",
     "nprogress": "^0.2.0",
-    "passport": "^0.4.0",
+    "passport": "0.3.2",
     "passport-facebook": "^2.1.1",
     "passport-google-oauth": "^1.0.0",
-    "passport-google-oauth20": "^1.0.0",
     "pg": "^7.2.0",
     "prettier-eslint": "^7.1.0",
     "react": "^15.6.1",
@@ -36,7 +36,8 @@
     "sendgrid": "^5.2.3",
     "sequelize": "^4.8.0",
     "sequelize-cli": "^2.8.0",
-    "slate": "^0.21.4"
+    "slate": "^0.21.4",
+    "styled-jsx": "^1.0.10"
   },
   "scripts": {
     "start": "NODE_ENV=production node api",
@@ -50,10 +51,5 @@
     "jest": "^20.0.4",
     "react-addons-test-utils": "^15.6.0",
     "react-test-renderer": "^15.6.1"
-  },
-  "babel": {
-    "plugins": [
-      "transform-runtime"
-    ]
   }
 }
