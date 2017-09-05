@@ -1,10 +1,12 @@
 import Link from 'next/link';
+import { connect } from 'react-redux';
 import { Menu } from 'semantic-ui-react';
 
-const Auth = () => {
-  let isLoggedIn = false; // temporary, should login status from server or props
+const Auth = ({ session }) => {
+  console.log('Auth: ', session);
   let authMenu = 'Sign in';
-  if (isLoggedIn) {
+  if (session.user) {
+    console.log('inside session if statement: ', true);
     authMenu = 'Sign out';
   }
 
@@ -17,4 +19,8 @@ const Auth = () => {
   );
 };
 
-export default Auth;
+const mapStateToProps = state => ({
+  session: state.session
+});
+
+export default connect(mapStateToProps)(Auth);
