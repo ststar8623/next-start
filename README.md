@@ -11,14 +11,11 @@
 
 ## Usage
 
-### Install dependencies
-### Start
-
 ## Requirements
 
-- Node 8.4.0
-- Redis 4.0.1
-- Postgresql 9.6.3
+- Node 8.4.x
+- Redis 4.0.x
+- Postgresql 9.6.x
 
 ## Development
 
@@ -28,6 +25,12 @@
 brew install yarn
 brew install redis
 brew install postgresql
+```
+
+### Installing App Dependencies
+
+```
+yarn install
 ```
 
 ## App Configuration
