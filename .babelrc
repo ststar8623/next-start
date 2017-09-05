@@ -1,12 +1,10 @@
 {
-  "presets": [
-    "next/babel",
-    "latest",
-    "react",
-    "stage-0"
-  ],
-  "plugins": [
-    "transform-runtime",
-    "styled-jsx/babel"
-  ]
+  "presets": ["next/babel", "latest", "react", "stage-0"],
+  "plugins": ["transform-runtime", "styled-jsx/babel"],
+  "env": {
+    "test": {
+      "presets": [["es2015", { "modules": false }], "react", "stage-0"],
+      "plugins": ["transform-es2015-modules-commonjs", "dynamic-import-node"]
+    }
+  }
 }
