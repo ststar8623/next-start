@@ -6,13 +6,6 @@
     "stage-0"
   ],
   "plugins": [
-    [
-      "transform-assets",
-      {
-        "extensions": ["txt", "svg", "png"],
-        "name": "/static/[name].[ext]?[sha512:hash:base64:7]"
-      }
-    ],
     "transform-runtime",
     "styled-jsx/babel"
   ]

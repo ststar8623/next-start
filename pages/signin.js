@@ -1,4 +1,5 @@
-import Layout from '../components/layout/layout';
+import Layout from '../containers/layout/layout';
+import withRedux from 'next-redux-wrapper';
 import { List, Dimmer, Button, Icon } from 'semantic-ui-react';
 
 class Signin extends React.Component {
@@ -39,5 +40,5 @@ class Signin extends React.Component {
     );
   }
 }
-
 export default Signin;
+// export default withRedux()(Signin);

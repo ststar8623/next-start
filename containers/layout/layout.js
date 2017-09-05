@@ -2,8 +2,9 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Router from 'next/router';
 import NProgress from 'nprogress';
-import Nav from '../nav/nav';
-import Auth from '../auth/auth';
+import Nav from '../../components/nav/nav';
+import Auth from '../../components/auth/auth';
+import { nprogressStyle } from './nprogressStyle';
 import { Sidebar, Segment, Menu, Header } from 'semantic-ui-react';
 
 Router.onRouteChangeStart = () => NProgress.start();
@@ -14,8 +15,7 @@ class Layout extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      showSidebar: false,
-      loadingContent: false
+      showSidebar: false
     };
 
     this.toggleSidebar = this.toggleSidebar.bind(this);
@@ -39,7 +39,6 @@ class Layout extends React.Component {
           <title>No-line</title>
           <meta charSet='utf-8' />
           <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-          <link rel='stylesheet' type='text/css' href='/static/css/nprogress.css'></link>
           <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css'></link>
         </Head>
         <Nav toggleSidebar={this.toggleSidebar}/>
@@ -64,12 +63,12 @@ class Layout extends React.Component {
               inverted
               color='grey'
               style={{height: '100vh', borderRadius: 0}}
-              loading={this.state.loadingContent}
             >
               {this.props.children}
             </Segment>
           </Sidebar.Pusher>
         </Sidebar.Pushable>
+        <style jsx global>{nprogressStyle}</style>
       </div>
     );
   }
