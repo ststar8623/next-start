@@ -1,9 +1,15 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Router from 'next/router';
+import NProgress from 'nprogress';
 import Nav from '../../components/nav/nav';
 import Auth from '../../components/auth/auth';
-import Progress from './nprogress/nprogress';
+import { nprogressStyle } from './nprogressStyle';
 import { Sidebar, Segment, Menu, Header } from 'semantic-ui-react';
+
+Router.onRouteChangeStart = () => NProgress.start();
+Router.onRouteChangeComplete = () => NProgress.done();
+Router.onRouteChangeError = () => NProgress.done();
 
 class Layout extends React.Component {
   constructor(props) {
@@ -57,13 +63,12 @@ class Layout extends React.Component {
               inverted
               color='grey'
               style={{height: '100vh', borderRadius: 0}}
-              loading={this.state.loadingContent}
             >
               {this.props.children}
             </Segment>
           </Sidebar.Pusher>
         </Sidebar.Pushable>
-        <Progress />
+        <style jsx global>{nprogressStyle}</style>
       </div>
     );
   }

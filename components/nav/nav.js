@@ -1,9 +1,6 @@
-import { Editor, Raw } from 'slate';
-import { connect } from 'react-redux';
-import { Menu } from 'semantic-ui-react';
 import BurgerMenu from './burgerMenu/burgerMenu';
+import { Menu } from 'semantic-ui-react';
 import { navStyle } from './navStyle';
-// import { getPrompts } from "../reducers/prompts";
 
 class Nav extends React.Component {
   constructor(props) {

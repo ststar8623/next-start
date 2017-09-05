@@ -11,7 +11,7 @@ module.exports.session = session({
   resave: false,
   rolling: true,
   saveUninitialized: false,
-  cookie: { maxAge: 60 * 3600 * 1000 }
+  cookie: { maxAge: 60 * 1000 * 15 }
 });
 
 module.exports.verify = (req, res, next) => {

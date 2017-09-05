@@ -2,14 +2,11 @@ import Layout from '../containers/layout/layout';
 import withRedux from 'next-redux-wrapper';
 
 class Index extends React.Component {
-  // static async getInitialProps({ req }) {
-  //   const isServer = !!req;
-  //   const store = initStore(reducer, null, isServer);
-  //   const userAgent = req ? req.headers["user-agent"] : navigator.userAgent;
-  //   let pageProps = {};
+  static async getInitialProps({ req }) {
+    // console.log(req);
 
-  //   return { initialState: store.getState(), isServer, userAgent };
-  // }
+    return {};
+  }
 
   constructor(props) {
     super(props);
@@ -23,5 +20,6 @@ class Index extends React.Component {
     );
   }
 }
+
 export default Index;
 // export default withRedux()(Index);

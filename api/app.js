@@ -22,8 +22,13 @@ nextApp
 
     // pages endpoint
     app.get('/', (req, res) => nextApp.render(req, res, '/', req.query));
-    app.get('/signin', (req, res) => nextApp.render(req, res, '/signin', req.query));
-    app.get('/signout', middleware.auth.signout, (req, res) => nextApp.render(req, res, '/'));
+    app.get('/signin', (req, res) => {
+      if (req.isAuthenticated()) {
+        return res.redirect('/'); // redirect to homepage if user is authenticated 
+      }
+      return nextApp.render(req, res, '/signin', req.query);
+    });
+    app.get('/signout', middleware.auth.signout, (req, res) => res.redirect('/'));
 
     // data endpoint
     app.use('/auth', routes.auth);

@@ -10,7 +10,9 @@ const Auth = () => {
 
   return (
     <Menu.Item link>
-      <Link href={`/${authMenu.split(' ').join('').toLowerCase()}`}><a>{authMenu}</a></Link>
+      <Link href={`/${authMenu.split(' ').join('').toLowerCase()}`}>
+        <a>{authMenu}</a>
+      </Link>
     </Menu.Item>
   );
 };
