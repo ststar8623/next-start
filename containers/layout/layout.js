@@ -27,10 +27,10 @@ class Layout extends React.Component {
 
   render() {
     const menus = [
-      {href: '/', name: 'Order'},
-      {href: '/history', name: 'History'},
-      {href: '/settings', name: 'Settings'},
-      {href: '/about', name: 'About'}
+      {key: 'order', href: '/', name: 'Order'},
+      {key: 'history', href: '/history', name: 'History'},
+      {key: 'settings', href: '/settings', name: 'Settings'},
+      {key: 'about', href: '/about', name: 'About'}
     ];
 
     return (
@@ -51,10 +51,10 @@ class Layout extends React.Component {
             inverted
             width='thin'
           >
-            {menus.map((menu, index) => 
-              <Menu.Item link={true} key={index}>
-                <Link href={menu.href}><a>{menu.name}</a></Link>
-              </Menu.Item>
+            {menus.map(menu => 
+              <Link href={menu.href} key={menu.key} passHref> 
+                <Menu.Item link>{menu.name}</Menu.Item>
+              </Link>
             )}
             <Auth />
           </Sidebar>
