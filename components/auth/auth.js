@@ -3,24 +3,16 @@ import { connect } from 'react-redux';
 import { Menu } from 'semantic-ui-react';
 
 const Auth = ({ session }) => {
-  console.log('Auth: ', session);
   let authMenu = 'Sign in';
-  if (session.user) {
-    console.log('inside session if statement: ', true);
-    authMenu = 'Sign out';
-  }
+  if (session.user) { authMenu = 'Sign out'; }
 
   return (
-    <Menu.Item link>
-      <Link href={`/${authMenu.split(' ').join('').toLowerCase()}`}>
-        <a>{authMenu}</a>
-      </Link>
-    </Menu.Item>
+    <Link href={`/${authMenu.split(' ').join('').toLowerCase()}`} passHref>
+      <Menu.Item link>{authMenu}</Menu.Item>
+    </Link>
   );
 };
 
-const mapStateToProps = state => ({
-  session: state.session
-});
+const mapStateToProps = state => ({ session: state.session });
 
 export default connect(mapStateToProps)(Auth);

@@ -26,8 +26,8 @@ class Signin extends React.Component {
             </List.Item>
             <List.List>
               <List horizontal>
-                {loginBtns.map((btn, index) => 
-                  <List.Item key={index}>
+                {loginBtns.map((btn) => 
+                  <List.Item key={btn.name.toLowerCase()}>
                     <Button color={btn.color} href={`/auth/${btn.name.toLowerCase()}`} fluid>
                       <Icon name={`${btn.icon}`} />{` ${btn.name}`}
                     </Button>

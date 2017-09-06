@@ -1,7 +1,6 @@
 import Layout from '../containers/layout/layout';
 import withRedux from 'next-redux-wrapper';
 import { makeStore } from '../reducers';
-import { bindActionCreators } from 'redux';
 import { updateSession } from '../reducers/session';
 
 class Index extends React.Component {
