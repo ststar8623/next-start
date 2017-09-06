@@ -2,10 +2,10 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Router from 'next/router';
 import NProgress from 'nprogress';
-import Nav from '../../components/nav/nav';
-import Auth from '../../components/auth/auth';
-import { nprogressStyle } from './nprogressStyle';
+import Nav from '../nav/nav';
+import { connect } from 'react-redux';
 import { Sidebar, Segment, Menu, Header } from 'semantic-ui-react';
+import { nprogressStyle } from './nprogressStyle';
 
 Router.onRouteChangeStart = () => NProgress.start();
 Router.onRouteChangeComplete = () => NProgress.done();
@@ -52,11 +52,17 @@ class Layout extends React.Component {
             width='thin'
           >
             {menus.map(menu => 
-              <Link href={menu.href} key={menu.key} passHref> 
+              <Link href={menu.href} key={menu.key} passHref prefetch> 
                 <Menu.Item link>{menu.name}</Menu.Item>
               </Link>
             )}
-            <Auth />
+            {this.props.session.isLoggedIn ? (
+              <Menu.Item href='signout' link>Sign out</Menu.Item>
+            ) : (
+              <Link href='/signin' passHref prefetch>
+                <Menu.Item link>Sign in</Menu.Item>
+              </Link>
+            )}
           </Sidebar>
           <Sidebar.Pusher>
             <Segment 
@@ -74,4 +80,6 @@ class Layout extends React.Component {
   }
 }
 
-export default Layout;
+const mapStateToProps = state => ({ session: state.session });
+
+export default connect(mapStateToProps)(Layout);

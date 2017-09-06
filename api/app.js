@@ -28,7 +28,7 @@ nextApp
       }
       return nextApp.render(req, res, '/signin', req.query);
     });
-    app.get('/signout', middleware.auth.signout, (req, res) => res.redirect('/'));
+    app.get('/signout', middleware.auth.signout);
 
     // data endpoint
     app.use('/auth', routes.auth);
