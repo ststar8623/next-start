@@ -1,4 +1,4 @@
-import Layout from '../containers/layout/layout';
+import Layout from '../components/layout/layout';
 import withRedux from 'next-redux-wrapper';
 import { makeStore } from '../reducers';
 import { List, Dimmer, Button, Icon } from 'semantic-ui-react';
@@ -16,9 +16,7 @@ class Signin extends React.Component {
     ];
     return (
       <Layout>
-        <Dimmer
-          active
-        >
+        <Dimmer active>
           <List divided>
             <List.Item>
               <List.Content><h1>Sign in</h1></List.Content>

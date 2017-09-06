@@ -21,7 +21,7 @@ module.exports.verify = (req, res, next) => {
   res.redirect('/signin');
 };
 
-module.exports.signout = (req, res, next) => {
+module.exports.signout = (req, res) => {
   req.logout();
-  next();
+  res.redirect('/');
 };

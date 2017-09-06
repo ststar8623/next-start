@@ -1,12 +1,13 @@
-import Layout from '../containers/layout/layout';
+import Layout from '../components/layout/layout';
 import withRedux from 'next-redux-wrapper';
 import { makeStore } from '../reducers';
 import { updateSession } from '../reducers/session';
 
 class Index extends React.Component {
-  static async getInitialProps({ req, store, isServer }) {
+  static async getInitialProps({ store, req, isServer }) {
     if (isServer) {
-      store.dispatch(updateSession(req.user));
+      let session = { user: req.user, isLoggedIn: req.isAuthenticated() };
+      store.dispatch(updateSession(session));
     }
     return { isServer };
   }
