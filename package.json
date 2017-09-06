@@ -8,7 +8,8 @@
     "db": "redis-server --daemonize yes && pg_ctl -D database/db start",
     "db-shutdown": "redis-cli shutdown && pg_ctl -D database/db stop",
     "build": "next build",
-    "test": "NODE_ENV=testing jest"
+    "test": "NODE_ENV=testing jest",
+    "analyze": "ANALYZE=1 next build"
   },
   "dependencies": {
     "axios": "^0.16.2",
