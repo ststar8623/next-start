@@ -1,6 +1,5 @@
 const app = require('express')();
 const next = require('next');
-const config = require('config');
 
 const middleware = require('./middleware');
 const routes = require('./routes');
@@ -32,6 +31,9 @@ nextApp
 
     // data endpoint
     app.use('/auth', routes.auth);
+    app.use('/api/menu', routes.menu);
+
+    // 404 not found
     app.get('*', nextHandler);
 
     app.listen(port, () => console.log(`listening on port ${port}`));

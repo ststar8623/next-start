@@ -21,6 +21,21 @@ module.exports.verify = (req, res, next) => {
   res.redirect('/signin');
 };
 
+module.exports.isAuthorized = async (req, res, next) => {
+  // let isAuthorized = false;
+  
+  // // ensure user is admin of the store
+  // if (req.isAuthenticated() && req.user) {
+  //   let loggedInUser = await Admin.findById(req.user.id);
+  //   isAuthorized = !!loggedInUser && user.storeId === req.body.id;
+  // }
+  
+  // if (!req.isAuthenticated() || !isAuthorized) {
+  //   return res.sendStatus(401); 
+  // }
+  next();
+};
+
 module.exports.signout = (req, res) => {
   req.logout();
   res.redirect('/');
