@@ -1,29 +1,27 @@
 const fs = require('fs');
 const path = require('path');
 const Sequelize = require('sequelize');
-const _ = require('lodash');
 const config = require('config')['sequelize'];
 
 let db = {};
 // TODO - per-environment config
 const sequelize = new Sequelize(config.database, config.user, config.password, {
   host: config.host,
-  dialect: 'postgres'
+  dialect: 'postgres',
+  pool: config.pool
 });
 
 fs
   .readdirSync(__dirname)
-  .filter(function(file) {
-    return file.indexOf('.') !== 0 && file !== 'index.js';
-  })
-  .forEach(function(file) {
-    var model = sequelize['import'](path.join(__dirname, file));
+  .filter(file => file.indexOf('.') !== 0 && file !== 'index.js')
+  .forEach(file => {
+    var model = sequelize.import(path.join(__dirname, file));
     var modelName =
       model.name.substr(0, 1).toUpperCase() + model.name.substr(1);
     db[modelName] = model;
   });
 
-Object.keys(db).forEach(function(modelName) {
+Object.keys(db).forEach(modelName => {
   if (db[modelName].associate) {
     db[modelName].associate(db);
   }
