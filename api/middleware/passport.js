@@ -2,21 +2,18 @@ const passport = require('passport');
 const FacebookStrategy = require('passport-facebook').Strategy;
 const GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 const TwitterStategy = require('passport-twitter').Strategy;
+const _ = require('lodash');
 const { User } = require('../../models');
 const config = require('config')['passport'];
 const colors = require('colors');
 
 passport.serializeUser((profile, done) => {
-  done(null, profile.id);
+  let session = _.omit(profile, ['facebook_id', 'google_id', 'twitter_id']);
+  done(null, session);
 });
 
-passport.deserializeUser((id, done) => {
-  User.findById(id)
-    .then(result => done(null, result.dataValues))
-    .catch(err => {
-      console.log('deserializeUser error: '.red, err);
-      done(err, false);
-    });
+passport.deserializeUser((session, done) => {
+  done(null, session);
 });
 
 passport.use(new FacebookStrategy({
@@ -27,6 +24,7 @@ passport.use(new FacebookStrategy({
 }, (accessToken, refreshToken, profile, done) => {
   let email = profile.emails[0].value;
   let facebook_id = profile.id;
+  let facebook_profile_image = profile.photos[0].value;
 
   User.findOne({
     where: {
@@ -38,16 +36,17 @@ passport.use(new FacebookStrategy({
   })
     .then(async user => {
       if (user && !user.dataValues.facebook_id) {
-        await user.update({ facebook_id });
+        await user.update({ facebook_id, facebook_profile_image });
       } else if (!user) {
         user = await User.create({
           email: email,
           facebook_id: facebook_id,
           firstName: profile.name.givenName,
           lastName: profile.name.familyName,
-          facebook_profile_image: profile.photos[0].value
+          facebook_profile_image: facebook_profile_image
         });
       }
+      user.dataValues.loginProvider = 'facebook';      
       done(null, user.dataValues);
     })
     .catch(err => {
@@ -62,6 +61,7 @@ passport.use(new GoogleStrategy({
 }, (accessToken, refreshToken, profile, done) => {
   let email = profile.emails[0].value;
   let google_id = profile.id;
+  let google_profile_image = profile.photos[0].value;  
 
   User.findOne({
     where: {
@@ -73,16 +73,17 @@ passport.use(new GoogleStrategy({
   })
     .then(async user => {
       if (user && !user.dataValues.google_id) {
-        await user.update({ google_id });
+        await user.update({ google_id, google_profile_image });
       } else if (!user) {
         user = await User.create({
           email: email,
           google_id: google_id,
           firstName: profile.name.givenName,
           lastName: profile.name.familyName,
-          google_profile_image: profile.photos[0].value
+          google_profile_image: google_profile_image
         });
       }
+      user.dataValues.loginProvider = 'google';      
       done(null, user.dataValues);
     })
     .catch(err => {
@@ -99,6 +100,7 @@ passport.use(new TwitterStategy({
 }, (token, tokenSecret, profile, done) => {
   let email = profile.emails[0].value;
   let twitter_id = profile.id;
+  let twitter_profile_image = profile.photos[0].value;  
 
   User.findOne({
     where: {
@@ -110,16 +112,17 @@ passport.use(new TwitterStategy({
   })
     .then(async user => {
       if (user && !user.dataValues.twitter_id) {
-        await user.update({ twitter_id });
+        await user.update({ twitter_id, twitter_profile_image });
       } else if (!user) {
         user = await User.create({
           email: email,
           twitter_id: twitter_id,
           firstName: profile.name.givenName,
           lastName: profile.name.familyName,
-          twitter_profile_image: profile.photos[0].value
+          twitter_profile_image: twitter_profile_image
         });
       }
+      user.dataValues.loginProvider = 'twitter';
       done(null, user.dataValues);
     })
     .catch(err => {

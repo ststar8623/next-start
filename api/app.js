@@ -14,7 +14,6 @@ nextApp
   .then(() => {
     app.use(middleware.bodyParser.json());
     app.use(middleware.bodyParser.urlencoded({ extended: true }));
-
     app.use(middleware.auth.session);
     app.use(middleware.passport.initialize());
     app.use(middleware.passport.session());
@@ -32,6 +31,7 @@ nextApp
     // data endpoint
     app.use('/auth', routes.auth);
     app.use('/api/menu', routes.menu);
+    app.use('/api/order', middleware.auth.verify, routes.order);
 
     // 404 not found
     app.get('*', nextHandler);
