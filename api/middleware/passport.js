@@ -2,18 +2,24 @@ const passport = require('passport');
 const FacebookStrategy = require('passport-facebook').Strategy;
 const GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 const TwitterStategy = require('passport-twitter').Strategy;
-const _ = require('lodash');
-const { User } = require('../../models');
+const { User } = require('../../database');
 const config = require('config')['passport'];
 const colors = require('colors');
+const _ = require('lodash');
 
 passport.serializeUser((profile, done) => {
-  let session = _.omit(profile, ['facebook_id', 'google_id', 'twitter_id']);
-  done(null, session);
+  done(null, profile.id);
 });
 
-passport.deserializeUser((session, done) => {
-  done(null, session);
+passport.deserializeUser((id, done) => {
+  User.findById(id)
+    .then(result => {
+      done(null, _.omit(result.dataValues, ['facebook_id', 'google_id', 'twitter_id']));
+    })
+    .catch(err => {
+      console.log('error deserializing user: '.red, err);
+      done(err, false);
+    });
 });
 
 passport.use(new FacebookStrategy({

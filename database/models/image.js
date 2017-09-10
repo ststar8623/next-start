@@ -1,5 +1,5 @@
 module.exports = (db, DataTypes) => {
-  const Image = db.define('image', {
+  const Image = db.define('Image', {
     id: {
       type: DataTypes.INTEGER,
       autoIncrement: true,

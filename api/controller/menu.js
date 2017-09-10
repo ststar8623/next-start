@@ -1,4 +1,4 @@
-const { Menu } = require('../../models');
+const { Menu } = require('../../database');
 const Promise = require('bluebird');
 const colors = require('colors');
 

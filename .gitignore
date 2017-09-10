@@ -21,4 +21,5 @@ config/development.json
 config/production.json
 
 # database
-database
+database/db
+database/logfile
