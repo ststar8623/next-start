@@ -15,7 +15,7 @@ class Layout extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      showSidebar: false
+      showSidebar: false,
     };
 
     this.toggleSidebar = this.toggleSidebar.bind(this);
@@ -29,7 +29,7 @@ class Layout extends React.Component {
     const menus = [
       {key: 'order', href: '/', name: 'Order'},
       {key: 'history', href: '/history', name: 'History'},
-      {key: 'settings', href: '/settings', name: 'Settings'},
+      {key: 'setting', href: '/setting', name: 'Setting'},
       {key: 'about', href: '/about', name: 'About'}
     ];
 
@@ -41,7 +41,7 @@ class Layout extends React.Component {
           <meta name='viewport' content='initial-scale=1.0, width=device-width' />
           <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css'></link>
         </Head>
-        <Nav toggleSidebar={this.toggleSidebar}/>
+        <Nav toggleSidebar={this.toggleSidebar} showSidebar={this.state.showSidebar}/>
         <Sidebar.Pushable>
           <Sidebar
             as={Menu}

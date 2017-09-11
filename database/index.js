@@ -13,11 +13,19 @@ const db = new Sequelize(config.database, config.user, config.password, {
 fs
   .readdirSync(path.join(__dirname, '/models'))
   .filter(file => file.indexOf('.') !== 0 && file !== 'index.js')
-  .forEach(file => db.import(path.join(__dirname, '/models/', file)))
+  .forEach(file => db.import(path.join(__dirname, 'models', file)).sync())
 ;
   
 associate(db.models);
 
-db.sync();
+db
+  .authenticate()
+  .then(() => {
+    console.log('Database connection has been established successfully.');
+  })
+  .catch(err => {
+    console.error('Unable to connect to the database:', err);
+  })
+;
 
 module.exports = db.models;

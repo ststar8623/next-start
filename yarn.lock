@@ -1246,6 +1246,10 @@ base64-js@^1.0.2:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.2.1.tgz#a91947da1f4a516ea38e5b4ec0ec3773675e0886"
 
+basic-auth@~1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/basic-auth/-/basic-auth-1.1.0.tgz#45221ee429f7ee1e5035be3f51533f1cdfd29884"
+
 bcrypt-pbkdf@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.1.tgz#63bc5dcb61331b92bc05fd528953c33462a06f8d"
@@ -1933,7 +1937,7 @@ delegates@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
 
-depd@1.1.1, depd@^1.1.0, depd@~1.1.1:
+depd@1.1.1, depd@^1.1.0, depd@~1.1.0, depd@~1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/depd/-/depd-1.1.1.tgz#5783b4e1c459f06fa5ca27f991f3d06e7a310359"
 
@@ -4080,6 +4084,16 @@ moment-timezone@^0.5.4:
   version "2.18.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.18.1.tgz#c36193dd3ce1c2eed2adb7c802dbbc77a81b1c0f"
 
+morgan@^1.8.2:
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/morgan/-/morgan-1.8.2.tgz#784ac7734e4a453a9c6e6e8680a9329275c8b687"
+  dependencies:
+    basic-auth "~1.1.0"
+    debug "2.6.8"
+    depd "~1.1.0"
+    on-finished "~2.3.0"
+    on-headers "~1.0.1"
+
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -5308,13 +5322,12 @@ selection-is-backward@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/selection-is-backward/-/selection-is-backward-1.0.0.tgz#97a54633188a511aba6419fc5c1fa91b467e6be1"
 
-semantic-ui-react@^0.72.0:
-  version "0.72.0"
-  resolved "https://registry.yarnpkg.com/semantic-ui-react/-/semantic-ui-react-0.72.0.tgz#d3d3f61e2d1e86a7a1d83de551ed6d62e014fbb0"
+semantic-ui-react@^0.73.0:
+  version "0.73.0"
+  resolved "https://registry.yarnpkg.com/semantic-ui-react/-/semantic-ui-react-0.73.0.tgz#4750473a51905b52a9745765b55c05582c93efb5"
   dependencies:
     babel-runtime "^6.25.0"
     classnames "^2.2.5"
-    debug "^3.0.0"
     lodash "^4.17.4"
     prop-types "^15.5.10"
 
@@ -5364,9 +5377,9 @@ sendgrid@^5.2.3:
     mailparser "^0.6.1"
     sendgrid-rest "^2.3.0"
 
-sequelize-cli@^3.0.0-1:
-  version "3.0.0-1"
-  resolved "https://registry.yarnpkg.com/sequelize-cli/-/sequelize-cli-3.0.0-1.tgz#9724515529cc00e7c0bed8324ef0ce806b6e2459"
+sequelize-cli@^3.0.0-2:
+  version "3.0.0-2"
+  resolved "https://registry.yarnpkg.com/sequelize-cli/-/sequelize-cli-3.0.0-2.tgz#4699eb31a62c3694791fcac21f7a20920f905940"
   dependencies:
     bluebird "^3.5.0"
     cli-color "^1.2.0"
@@ -5460,9 +5473,9 @@ slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
 
-slate@^0.22.14:
-  version "0.22.14"
-  resolved "https://registry.yarnpkg.com/slate/-/slate-0.22.14.tgz#8a077728a95cf9d2fa79c6e5083368e1a260318c"
+slate@^0.23.0:
+  version "0.23.0"
+  resolved "https://registry.yarnpkg.com/slate/-/slate-0.23.0.tgz#dba3aa8d6db4c99b4500827ddcd9cd5a667da20f"
   dependencies:
     debug "^2.3.2"
     direction "^0.1.5"
