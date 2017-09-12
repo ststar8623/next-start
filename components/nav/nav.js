@@ -1,13 +1,14 @@
 import BurgerMenu from './burgerMenu/burgerMenu';
-import { Menu } from 'semantic-ui-react';
-import { navStyle } from './navStyle';
+import { Menu, Segment } from 'semantic-ui-react';
 
-const Nav = ({ toggleSidebar }) => (
-  <Menu style={navStyle} inverted>
-    <Menu.Item position="left" onClick={toggleSidebar}>
-      Menu
-    </Menu.Item>
-  </Menu>
+const Nav = ({ toggleSidebar, showSidebar }) => (
+  <Segment inverted style={{padding: 0, margin: 0, borderRadius: 0}}>
+    <Menu inverted text style={{margin: 0}}>
+      <Menu.Item position="left" onClick={toggleSidebar}>
+        <BurgerMenu _className={showSidebar ? 'change' : null}/>
+      </Menu.Item>
+    </Menu>
+  </Segment>
 );
 
 export default Nav;

@@ -12,15 +12,16 @@ const port = process.env.PORT || 3000;
 nextApp
   .prepare()
   .then(() => {
+    app.use(middleware.morgan('dev'));
     app.use(middleware.bodyParser.json());
     app.use(middleware.bodyParser.urlencoded({ extended: true }));
-
     app.use(middleware.auth.session);
     app.use(middleware.passport.initialize());
     app.use(middleware.passport.session());
 
     // pages endpoint
     app.get('/', (req, res) => nextApp.render(req, res, '/', req.query));
+    app.get('/setting', (req, res) => nextApp.render(req, res, '/setting', req.query));
     app.get('/signin', (req, res) => {
       if (req.isAuthenticated()) {
         return res.redirect('/'); // redirect to homepage if user is authenticated 
@@ -32,6 +33,7 @@ nextApp
     // data endpoint
     app.use('/auth', routes.auth);
     app.use('/api/menu', routes.menu);
+    app.use('/api/order', middleware.auth.verify, routes.order);
 
     // 404 not found
     app.get('*', nextHandler);

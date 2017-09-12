@@ -1,5 +1,5 @@
 module.exports = (db, DataTypes) => {
-  const User = db.define('user', {
+  const User = db.define('User', {
     id: {
       type: DataTypes.INTEGER,
       autoIncrement: true,
@@ -28,7 +28,15 @@ module.exports = (db, DataTypes) => {
     twitter_profile_image: DataTypes.TEXT,
     firstName: DataTypes.STRING,
     lastName: DataTypes.STRING
+  }, {
+    indexes: [
+      { 
+        unique: true,
+        fields: ['email', 'facebook_id', 'google_id', 'twitter_id']
+      }
+    ]
   });
+  
   return User;
 };
 

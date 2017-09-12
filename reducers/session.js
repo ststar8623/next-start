@@ -1,5 +1,3 @@
-const UPDATE_SESSION = 'UPDATE_SESSION';
-
 const initState = {
   user: null,
   isLoggedIn: false
@@ -7,7 +5,7 @@ const initState = {
 
 export const session = (state = initState, action) => {
   switch (action.type) {
-  case UPDATE_SESSION:
+  case 'UPDATE_SESSION':
     return { 
       ...state, 
       user: action.payload.user, 
@@ -16,10 +14,4 @@ export const session = (state = initState, action) => {
   default:
     return state;
   }
-};
-
-export const updateSession = sessionInfo => {
-  return dispatch => {
-    dispatch({ type: UPDATE_SESSION, payload: sessionInfo });
-  };
 };

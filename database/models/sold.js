@@ -1,5 +1,5 @@
 module.exports = (db, DataTypes) => {
-  const Sold = db.define('sold', {
+  const Sold = db.define('Sold', {
     id: {
       type: DataTypes.INTEGER,
       autoIncrement: true,
