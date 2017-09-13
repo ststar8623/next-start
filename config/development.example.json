@@ -19,17 +19,17 @@
 
   "passport": {
     "facebook": {
-      "clientID": "FILLE_ME_IN",
+      "clientID": "FILL_ME_IN",
       "clientSecret": "FILL_ME_IN",
       "callbackURL": "FILL_ME_IN"
     },
     "google": {
-      "clientID": "FILLE_ME_IN",
+      "clientID": "FILL_ME_IN",
       "clientSecret": "FILL_ME_IN",
       "callbackURL": "FILL_ME_IN"
     },
     "twitter": {
-      "consumerKey": "FILLE_ME_IN",
+      "consumerID": "FILL_ME_IN",
       "consumerSecret": "FILL_ME_IN",
       "callbackURL": "FILL_ME_IN"
     }
